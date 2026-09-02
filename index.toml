@@ -2254,11 +2254,6 @@ hash = "273affc5154b555780f019144cf6bff27eefe502154b9c79c17a3db988b6e8f8"
 metafile = true
 
 [[files]]
-file = "mods/dreamshift.pw.toml"
-hash = "a6acd01e9a41124f9c46546b4b21d46f5e74975faddd44de8ee12a91177bfcb8"
-metafile = true
-
-[[files]]
 file = "mods/dungeon-crawl.pw.toml"
 hash = "3a4845166040ce2be2967b33371140b809b8d49889ba99f91da78e0228cd6f8e"
 metafile = true
@@ -2880,4 +2875,4 @@ metafile = true
 
 [[files]]
 file = "packstamp.txt"
-hash = "29bdde8c6d1e30db83daeda12cfdc72b130dc16d7ea44e2880f8384023da0696"
+hash = "f7aa0d5e1885c214e813b025db1bbc4aeaff4adfc0e772f49ff3ec2be375824f"
