@@ -1,0 +1,74 @@
+
+#Graveyard structures counted and Sons of Sins creatures eligible for the pool
+[targets]
+	#Structures whose visit raises the Dread gauge (full ResourceLocation).
+	#ALL The Graveyard 3.1 structures, including haunted_house.
+	structure_whitelist = ["graveyard:altar", "graveyard:crypt", "graveyard:dead_tree", "graveyard:giant_mushroom", "graveyard:haunted_house", "graveyard:large_graveyard", "graveyard:lich_prison", "graveyard:medium_graveyard", "graveyard:memorial_tree", "graveyard:mushroom_grave", "graveyard:ruins", "graveyard:small_desert_grave", "graveyard:small_desert_graveyard", "graveyard:small_grave", "graveyard:small_graveyard", "graveyard:small_mountain_grave", "graveyard:small_savanna_grave"]
+	#Sons of Sins creatures eligible for the payback spawn (full ResourceLocation).
+	#All 7 named sins are back in the pool: wistiver, walking_bed, blud, prowler,
+	#kelvin and butcher used to crash on their first landed hit (unguarded
+	#entity.getFirstPassenger().stopRiding() in their own tick procedure — see
+	#mixin/SinStopRidingFixMixin.java for the exact bug and how it's patched).
+	#The mixin is verified correct against the crash log's own SRG identifiers
+	#(see git history) and confirmed to load/apply without error, but not yet
+	#confirmed fixed in real combat against one of the 6 previously-crashing
+	#creatures specifically — curse (2026-07-09's successful real-play test) was
+	#never affected by this bug, so that test alone doesn't prove the fix works.
+	#The undocumented entities (devourer, nibbler, grub, ditched, gulber, guzzler,
+	#betrayed_guzzler, wistiver_jaw) don't share this specific bug either, but
+	#still need in-game behaviour/theme verification before being added here.
+	sin_creature_pool = ["sons_of_sins:wistiver", "sons_of_sins:walking_bed", "sons_of_sins:blud", "sons_of_sins:prowler", "sons_of_sins:kelvin", "sons_of_sins:butcher", "sons_of_sins:curse"]
+
+#Dread gauge (0-100+), per player — see docs/design_mod_liaison_graveyard_sonsofsins.md, open points
+[dread_gauge]
+	#How often the player's position is checked (in ticks). Doc: 20-40.
+	#Range: 1 ~ 200
+	structure_check_interval_ticks = 30
+	#MINIMUM dread increment per NEW structure visited (random roll, not fixed).
+	#Range: 0.1 ~ 100.0
+	dread_per_structure_min = 5.0
+	#MAXIMUM dread increment per NEW structure visited.
+	#Range: 0.1 ~ 100.0
+	dread_per_structure_max = 20.0
+	#Dread threshold that triggers the payback spawn.
+	#Range: 1.0 ~ 1000.0
+	spawn_threshold = 100.0
+	#If true, the gauge resets to 0 after a payback spawn (makes the mechanic repeatable).
+	reset_dread_on_spawn = true
+
+#25/50/75% tiers — sound + random chat warning message at each.
+#All 3 tiers share the same "whispers" track (ModSounds.WHISPERS) by default —
+#same cue getting more frequent as dread rises, rather than 3 different sounds.
+[tier_warnings]
+	#Threshold fraction for the 1st tier (0.0-1.0).
+	#Range: 0.0 ~ 1.0
+	tier_1_fraction = 0.25
+	#Sound played to the player alone at the 1st tier.
+	tier_1_sound = "sons_of_the_graveyard:whispers"
+	#Threshold fraction for the 2nd tier (0.0-1.0).
+	#Range: 0.0 ~ 1.0
+	tier_2_fraction = 0.5
+	#Sound played to the player alone at the 2nd tier.
+	tier_2_sound = "sons_of_the_graveyard:whispers"
+	#Threshold fraction for the 3rd tier (0.0-1.0).
+	#Range: 0.0 ~ 1.0
+	tier_3_fraction = 0.75
+	#Sound played to the player alone at the 3rd tier.
+	tier_3_sound = "sons_of_the_graveyard:whispers"
+
+#Payback spawn and combat music
+[payback]
+	#Distance (blocks) behind the player where the creature appears — never in melee range,
+	#to preserve the surprise (the music only kicks in on the first landed hit).
+	#Range: 3.0 ~ 32.0
+	spawn_distance_behind_player = 8.0
+	#Tension music, triggered only on the creature's first landed hit (not on spawn).
+	#Our own track ("Conspiracy Theory" by Rod Kim), registered in ModSounds.
+	combat_music_sound = "sons_of_the_graveyard:combat_music"
+	#Radius (blocks) within which to send the stop-sound packet when the creature dies.
+	#Range: 8.0 ~ 128.0
+	combat_music_stop_radius = 32.0
+	#Neutralizes Sons of Sins' original sacrifice ritual (spawn via MOB_SUMMONED).
+	#Can be disabled to easily roll back during testing.
+	neutralize_ritual = true
+

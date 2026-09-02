@@ -1,0 +1,53 @@
+
+#暴食原罪·吞噬进化 全局默认配置（只作为新创建世界的初始值，世界SERVER配置优先）
+[gluttony_sin]
+	#Range: 0.0 ~ 3600.0
+	cooldownSeconds = 60.0
+	#Range: 1.0 ~ 32.0
+	devourRadius = 3.0
+	#Range: 0.0 ~ 10000.0
+	baseHealthBonus = 1.0
+	#Range: 0.0 ~ 10000.0
+	baseAttackBonus = 0.5
+	#Range: 0.0 ~ 10000.0
+	bossHealthBonus = 5.0
+	#Range: 0.0 ~ 10000.0
+	bossAttackBonus = 2.5
+	#Range: 0.0 ~ 10000.0
+	eliteHealthBonus = 2.0
+	#Range: 0.0 ~ 10000.0
+	eliteAttackBonus = 1.0
+	#Range: 0.0 ~ 10000.0
+	sameEntityHeal = 2.0
+	#Range: 0.0 ~ 1.0
+	speedPenaltyPerUnique = 0.01
+	requireRingOfSevenCurses = true
+	allowFriendlyTargets = false
+	devourBlacklistIds = []
+	giveStarterItem = true
+	ringOfSevenCursesIds = ["enigmaticlegacy:cursed_ring"]
+	endlessBadgeIds = ["enigmaticdelicacy:gluttony_charm"]
+	cureItemIds = ["enigmaticlegacy:astral_fruit", "enigmaticdelicacy:astral_fruit_slice"]
+	divineFruitPieId = "enigmaticdelicacy:divine_fruit_pie"
+	curseOneFallbackId = "enigmaticlegacy:astral_fruit"
+	#Range: 1 ~ 1000000
+	strongBodyReverseCrouches = 10000
+	#Range: 0 ~ 1000000
+	strongBodyMaxStacks = 0
+	#Range: 0.0 ~ 10000.0
+	strongBodyAttackPerRise = 0.1
+	#Range: 0.0 ~ 10000.0
+	strongBodyHealthPerRise = 0.1
+	#Range: 0.0 ~ 10000.0
+	strongBodySpeedPerRise = 1.0E-5
+	#Range: 0.0 ~ 10000.0
+	strongBodyAttackSpeedPerRise = 0.001
+	#Range: 0.0 ~ 86400.0
+	strongBodyDurationSecondsPerRise = 3.0
+	#Range: 1 ~ 1000000
+	pickyReverseFoodCount = 10
+	#Range: 1 ~ 1440
+	gluttonyFullHungerMinutes = 10
+	#Range: 0.1 ~ 1000000.0
+	dreadReverseHealthThreshold = 4.0
+

@@ -1,0 +1,13 @@
+name = "Tenebrus Baubles"
+filename = "tenebrus_baubles-4.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OLKMaRFH/versions/ehfZJp5w/tenebrus_baubles-4.0.0-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "0654262e541415475ba74dbd239ec58ee28637bc3e9f7c83c0edb8b1802500c25a80f71febb2ca1c9e482806a0d0b11e23ce4cda98cadd510fc76ad20bf2b77b"
+
+[update]
+[update.modrinth]
+mod-id = "OLKMaRFH"
+version = "ehfZJp5w"

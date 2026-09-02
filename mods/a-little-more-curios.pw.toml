@@ -1,0 +1,13 @@
+name = "A Little More Curios"
+filename = "a_little_more_curios-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cf6ad0b3a6413a1b7be1731fea7d6e18641f4d64"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6653695
+project-id = 1287192

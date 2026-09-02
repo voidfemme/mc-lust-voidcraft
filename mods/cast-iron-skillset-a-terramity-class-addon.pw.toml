@@ -1,0 +1,13 @@
+name = "Cast Iron Skillset - A Terramity Class Addon!"
+filename = "cast_iron_skillet-0.1.3-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "92c681cbc6ef0b3ac484c6e1311153e103f287ec"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8517911
+project-id = 1501082

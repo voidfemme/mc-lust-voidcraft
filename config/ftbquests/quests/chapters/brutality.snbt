@@ -1,0 +1,872 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "brutality"
+	group: "3CC1829F8467807A"
+	id: "0B1A626B1235A520"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "22A5BE533CA978C8"
+			tasks: [{
+				id: "22A82CA72331883B"
+				title: "TRINKETS"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "5898F122AE934ADB"
+			tasks: [{
+				id: "3B2DE6FF6440CA15"
+				title: "HEAD"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			id: "207F5588FA7B839D"
+			tasks: [{
+				id: "12250F1C27F93217"
+				item: {
+					Count: 1
+					id: "brutality:brain_rot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "2A16B77F6BA3D2D6"
+			tasks: [{
+				id: "25A11559CFA5AD6B"
+				item: {
+					Count: 1
+					id: "brutality:crown_of_tyranny"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "2955F09D119AE9C8"
+			tasks: [{
+				id: "705C9F02DE369930"
+				item: {
+					Count: 1
+					id: "brutality:critical_thinking"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "53AC7D8010CE3427"
+			tasks: [{
+				id: "0B23E20434D35183"
+				item: {
+					Count: 1
+					id: "brutality:air_jordan_earrings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			id: "4E641D2590B026DB"
+			tasks: [{
+				id: "1EE69B92D89303BB"
+				item: {
+					Count: 1
+					id: "brutality:lens_makers_glasses"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			id: "54536E8496D1C8FD"
+			tasks: [{
+				id: "0A8E78797BCD63BF"
+				item: {
+					Count: 1
+					id: "brutality:scope_goggles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			id: "7A4A5532BEE0BD3D"
+			tasks: [{
+				id: "7CFC12383DAF854E"
+				item: {
+					Count: 1
+					id: "brutality:hell_specs"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			id: "721A5AD9D33F4924"
+			tasks: [{
+				id: "482A3897E81DC578"
+				item: {
+					Count: 1
+					id: "brutality:sanguine_spectacles"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			id: "0FD5D6D80637D6E7"
+			tasks: [{
+				id: "60605833092CB168"
+				item: {
+					Count: 1
+					id: "brutality:vampire_fang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			id: "6EBB1766034DD5BA"
+			tasks: [{
+				id: "1769CF587FD38182"
+				item: {
+					Count: 1
+					id: "brutality:progenitors_earrings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -4.0d
+		}
+		{
+			id: "1134C9C360542B20"
+			tasks: [{
+				id: "168E4BBD68CE9F3B"
+				item: {
+					Count: 1
+					id: "brutality:fallen_angels_halo"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			id: "08B4CFCC3D9BA8AB"
+			tasks: [{
+				id: "5BC63523577CB2CA"
+				item: {
+					Count: 1
+					id: "brutality:eye_for_violence"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			id: "32079302A476E23D"
+			tasks: [{
+				id: "09F41A15318E829C"
+				title: "NECKLACE"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "1B875A171F0E6D98"
+			tasks: [{
+				id: "6039F33875BE82F4"
+				item: {
+					Count: 1
+					id: "brutality:fuzzy_dice"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "66CFA7C7CE2F683A"
+			tasks: [{
+				id: "56FB7435B83E27FD"
+				item: {
+					Count: 1
+					id: "brutality:abyssal_necklace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "249104344971D9D6"
+			tasks: [{
+				id: "31EC2CB652F38345"
+				item: {
+					Count: 1
+					id: "brutality:knights_pendant"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "34FD915103D8447F"
+			tasks: [{
+				id: "01B5FE8B121F1688"
+				item: {
+					Count: 1
+					id: "brutality:gamblers_chain"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			id: "23E14C708F27F232"
+			tasks: [{
+				id: "3839AB7023369B81"
+				item: {
+					Count: 1
+					id: "brutality:black_matter_necklace"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			id: "5BE024E01E105CEC"
+			tasks: [{
+				id: "3234A1C8BEEAE469"
+				item: {
+					Count: 1
+					id: "brutality:hemomatic_locket"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			id: "3281D12F08545BFD"
+			tasks: [{
+				id: "4CE941F32C3CD8CC"
+				item: {
+					Count: 1
+					id: "brutality:blood_howl_pendant"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			id: "69C7C40FBCFE1939"
+			tasks: [{
+				id: "0C5ABA45EC276967"
+				item: {
+					Count: 1
+					id: "brutality:hellspec_tie"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			id: "0A8ABF643CD6698C"
+			tasks: [{
+				id: "1D95602E09A4B339"
+				title: "HEARTS"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			id: "5E29112E6D18CA8A"
+			tasks: [{
+				id: "4E6ADE4B14E7622F"
+				item: {
+					Count: 1
+					id: "brutality:broken_heart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "45196EE5D637C947"
+			tasks: [{
+				id: "3835CCBE8DB62142"
+				item: {
+					Count: 1
+					id: "brutality:dragonheart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			id: "5FCF779706121BE8"
+			tasks: [{
+				id: "51CF576D197B572F"
+				item: {
+					Count: 1
+					id: "brutality:uvogre_heart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			id: "6F5F1BED8814D560"
+			tasks: [{
+				id: "3B3B3DDB2B6E7A5A"
+				item: {
+					Count: 1
+					id: "brutality:zombie_heart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			id: "0FF8BEABB130E3AB"
+			tasks: [{
+				id: "6B56AD2FEFC702BF"
+				item: {
+					Count: 1
+					id: "brutality:frozen_heart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			id: "1132106DE608761D"
+			tasks: [{
+				id: "50B0D365F8E6E76E"
+				item: {
+					Count: 1
+					id: "brutality:heart_of_gold"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			id: "05DC86C7E3914985"
+			tasks: [{
+				id: "24CADFD99B28A229"
+				item: {
+					Count: 1
+					id: "brutality:second_heart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.0d
+		}
+		{
+			id: "128A044AED7617A7"
+			tasks: [{
+				id: "2063FF6D644BAF3F"
+				item: {
+					Count: 1
+					id: "brutality:brutal_heart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			id: "201BB3BA9A35163B"
+			tasks: [{
+				id: "3B64685263D81030"
+				item: {
+					Count: 1
+					id: "brutality:ninja_heart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			id: "036CB97372281D95"
+			tasks: [{
+				id: "1D00D6A31F7A9289"
+				item: {
+					Count: 1
+					id: "brutality:heart_of_wrath"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.0d
+		}
+		{
+			id: "53B0A3266FE825D6"
+			tasks: [{
+				id: "5493710A90578836"
+				item: {
+					Count: 1
+					id: "brutality:rune_of_delta"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.0d
+		}
+		{
+			id: "7A0823F7F8DD829A"
+			tasks: [{
+				id: "048270102FA3430C"
+				item: {
+					Count: 1
+					id: "brutality:box_of_chocolates"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			id: "1026944B945B69EF"
+			tasks: [{
+				id: "3977FB863B4C9DB4"
+				item: {
+					Count: 1
+					id: "brutality:glass_heart"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.0d
+		}
+		{
+			id: "671753254C0A0DD9"
+			tasks: [{
+				id: "1758B2BF4E3214DC"
+				title: "HANDS"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "5F936D8BED4AA2EF"
+			tasks: [{
+				id: "0C2935CCEBB0A3C4"
+				item: {
+					Count: 1
+					id: "brutality:good_book"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "38FBFFB2977B68B1"
+			tasks: [{
+				id: "4CB6B8CCB9D0C39B"
+				item: {
+					Count: 1
+					id: "brutality:nanomachines"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "202253EABA403FD0"
+			tasks: [{
+				id: "4F81FFF6B8D68499"
+				item: {
+					Count: 1
+					id: "brutality:dueling_glove"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "5688B6D877AE2FCE"
+			tasks: [{
+				id: "0FF29066C1F49CDC"
+				item: {
+					Count: 1
+					id: "brutality:the_oath"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "498A4EF4D91C4302"
+			tasks: [{
+				id: "45175E56CA7BF6FC"
+				item: {
+					Count: 1
+					id: "brutality:crowbar"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "0A293A87DDF2535A"
+			tasks: [{
+				id: "1ADEE3F9AFE06573"
+				item: {
+					Count: 1
+					id: "brutality:jury_nullifier"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "1FE01C9AA191B2D9"
+			tasks: [{
+				id: "4C47AF91471C8FEF"
+				item: {
+					Count: 1
+					id: "brutality:eye_of_the_dragon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			id: "422F610C04BC2771"
+			tasks: [{
+				id: "1638300FEA30ED89"
+				item: {
+					Count: 1
+					id: "brutality:phantom_finger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			id: "16AA7B3C6E162241"
+			tasks: [{
+				id: "24D1DF149064CA1D"
+				item: {
+					Count: 1
+					id: "brutality:stygian_chain"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			id: "73AAE37C479BAE8E"
+			tasks: [{
+				id: "4C07604A6B3F2A40"
+				item: {
+					Count: 1
+					id: "brutality:fire_extinguisher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			id: "033200C8109C2B7D"
+			tasks: [{
+				id: "67336B021525937C"
+				item: {
+					Count: 1
+					id: "brutality:blood_pulse_gauntlets"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			id: "63F6201F6D721458"
+			tasks: [{
+				id: "40EE1BB62BECC06B"
+				item: {
+					Count: 1
+					id: "brutality:dumbbell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			id: "3C887B64660FE6DC"
+			tasks: [{
+				id: "6945C89E51670211"
+				item: {
+					Count: 1
+					id: "brutality:anger_management"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			id: "17B00AAC38D5F5B2"
+			tasks: [{
+				id: "70FDBE980150B8D4"
+				title: "RINGS"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "247B0760AD6DE89B"
+			tasks: [{
+				id: "2477C455C3236719"
+				item: {
+					Count: 1
+					id: "brutality:road_runners_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "254D6FC5346B04E5"
+			tasks: [{
+				id: "33766AD2466D1F36"
+				item: {
+					Count: 1
+					id: "brutality:microblade_band"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "0B522CD8CE18763E"
+			tasks: [{
+				id: "4A58F97354767103"
+				item: {
+					Count: 1
+					id: "brutality:sanguine_signet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "766159A5D0F0CAB2"
+			tasks: [{
+				id: "01C11824F30FAD27"
+				item: {
+					Count: 1
+					id: "brutality:fury_band"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+	]
+	title: "BRUTALITY"
+}

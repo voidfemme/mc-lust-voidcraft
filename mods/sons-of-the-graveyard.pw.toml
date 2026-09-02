@@ -1,0 +1,13 @@
+name = "Sons of The Graveyard"
+filename = "sons_of_the_graveyard-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9acc1c1384fa7aaed5ba9cc6ae16c3b1402ace40"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8450825
+project-id = 1603789

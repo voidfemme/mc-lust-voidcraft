@@ -1,0 +1,13 @@
+name = "Sons Of Sins: Organs Additions"
+filename = "sosorgans-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4c196c4f50fc0fa19ef4af9a5e57cdc9b47a687f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4834990
+project-id = 932176

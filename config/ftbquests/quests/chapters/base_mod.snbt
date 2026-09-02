@@ -1,0 +1,6059 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "base_mod"
+	group: "3CC1829F8467807A"
+	id: "539364B1E163BC16"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "42A37642DF980427"
+			tasks: [{
+				id: "1ABE614E55FA013F"
+				title: "trinkets"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "6EDA3DB3C25E0328"
+			tasks: [{
+				id: "4A37ED99F77F6E0A"
+				title: "head"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "197F2D0236F5235C"
+			tasks: [{
+				id: "2294157AB644E203"
+				item: {
+					Count: 1
+					id: "terramity:eyeglasses"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			id: "58447E199C1C42DD"
+			tasks: [{
+				id: "313DFB51EBD2F16E"
+				item: {
+					Count: 1
+					id: "terramity:eyepatch"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			id: "667B2EF22655AE1E"
+			tasks: [{
+				id: "52F7A4532499DC7F"
+				item: {
+					Count: 1
+					id: "terramity:scuba_gear"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			id: "426B23E1C2DD3163"
+			tasks: [{
+				id: "610C2AEAE7B2BC2E"
+				item: {
+					Count: 1
+					id: "terramity:diamond_earrings"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			id: "597FBB35F8680DDF"
+			tasks: [{
+				id: "25D9694CF3E1E90D"
+				item: {
+					Count: 1
+					id: "terramity:swag_glasses"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			id: "62CFC4F17542C9C3"
+			tasks: [{
+				id: "081AB3805DCE5CF4"
+				item: {
+					Count: 1
+					id: "terramity:ancient_stone_mask"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			id: "64E2FF9FA67EFB9C"
+			tasks: [{
+				id: "425C538AA64D2217"
+				item: {
+					Count: 1
+					id: "terramity:cyber_glasses"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			id: "6887075B8D4D3399"
+			tasks: [{
+				id: "7482665C41769EAD"
+				item: {
+					Count: 1
+					id: "terramity:void_glasses"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			id: "6CDD9585397A3F65"
+			tasks: [{
+				id: "7D6265454E46792E"
+				item: {
+					Count: 1
+					id: "terramity:archangel_halo"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			id: "59B9B9B33E89D080"
+			tasks: [{
+				id: "12CA141C8B201380"
+				title: "Necklace"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "3C4C71FEA1002CB3"
+			tasks: [{
+				id: "59101386E081EB7C"
+				item: {
+					Count: 1
+					id: "terramity:cardboard_necklace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "2DB91CB3B78F7358"
+			tasks: [{
+				id: "16029D63438D1710"
+				item: {
+					Count: 1
+					id: "terramity:gold_necklace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			id: "23140F7AB59A6A5E"
+			tasks: [{
+				id: "4CF5990C160ABFCB"
+				item: {
+					Count: 1
+					id: "terramity:diamond_pendant"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			id: "37AFCBD0DCB6E49D"
+			tasks: [{
+				id: "397A468616B82CE0"
+				item: {
+					Count: 1
+					id: "terramity:poisonguard_pendant"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			id: "4F5D18FB2DF6584E"
+			tasks: [{
+				id: "1E57F21FF03DA0E9"
+				item: {
+					Count: 1
+					id: "terramity:honey_necklace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			id: "56B6F75A7076E9C0"
+			tasks: [{
+				id: "1E6658DBECA55133"
+				item: {
+					Count: 1
+					id: "terramity:purity_pendant"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			id: "685BFFA15B278BB8"
+			tasks: [{
+				id: "3E9804D9BF5865DB"
+				item: {
+					Count: 1
+					id: "terramity:holy_heart_necklace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			id: "76E165CF3E189467"
+			tasks: [{
+				id: "5D89E154FBBCC9FC"
+				item: {
+					Count: 1
+					id: "terramity:voidguard_pendant"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -3.5d
+		}
+		{
+			id: "266FE6E81F66092C"
+			tasks: [{
+				id: "7A3120EE55E7DC2A"
+				item: {
+					Count: 1
+					id: "terramity:flameguard_pendant"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			id: "186D14AC52BFE7AF"
+			tasks: [{
+				id: "2E0F75C63DCE92F3"
+				item: {
+					Count: 1
+					id: "terramity:steady_pendant"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -3.5d
+		}
+		{
+			id: "66FDC11790DBE6F6"
+			tasks: [{
+				id: "7A162A0FB7C7C02C"
+				item: {
+					Count: 1
+					id: "terramity:lava_locket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -3.5d
+		}
+		{
+			id: "5163B90A7F2ED2CA"
+			tasks: [{
+				id: "59D1D083F955C402"
+				item: {
+					Count: 1
+					id: "terramity:solar_safeguard_pendant"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -3.5d
+		}
+		{
+			id: "304C8EE4378BCC0F"
+			tasks: [{
+				id: "214F335AC338A5FD"
+				item: {
+					Count: 1
+					id: "terramity:anxiety_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: -3.5d
+		}
+		{
+			id: "21C320FD8D30B73A"
+			tasks: [{
+				id: "6C609A4F59A889AB"
+				item: {
+					Count: 1
+					id: "terramity:blastguard_pendant"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: -3.5d
+		}
+		{
+			id: "1666BACBA5677029"
+			tasks: [{
+				id: "0476C505F56900B1"
+				item: {
+					Count: 1
+					id: "terramity:exodium_shield_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: -3.5d
+		}
+		{
+			id: "22EC33956C8FD72F"
+			tasks: [{
+				id: "55F83852FB1B66AB"
+				item: {
+					Count: 1
+					id: "terramity:rebound_scarf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 24.5d
+			y: -3.5d
+		}
+		{
+			id: "3DF254273606A30C"
+			tasks: [{
+				id: "16D34B0D01802A18"
+				item: {
+					Count: 1
+					id: "terramity:stillness_scarf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: -3.5d
+		}
+		{
+			id: "36A770333425EFCE"
+			tasks: [{
+				id: "24DD4072F9BC729A"
+				item: {
+					Count: 1
+					id: "terramity:focus_scarf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 27.5d
+			y: -3.5d
+		}
+		{
+			id: "067DF066875CA08A"
+			tasks: [{
+				id: "33EECAFD82E06BE9"
+				item: {
+					Count: 1
+					id: "terramity:seafarer_scarf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 29.0d
+			y: -3.5d
+		}
+		{
+			id: "70EE2CC11AD92D92"
+			tasks: [{
+				id: "494C0BEF12655215"
+				item: {
+					Count: 1
+					id: "terramity:prismatic_scarf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 30.5d
+			y: -3.5d
+		}
+		{
+			id: "2885488162E5436E"
+			tasks: [{
+				id: "4CB59955AA0D075A"
+				item: {
+					Count: 1
+					id: "terramity:concealment_scarf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 32.0d
+			y: -3.5d
+		}
+		{
+			id: "16C59B52238458BE"
+			tasks: [{
+				id: "2967CB55B067C694"
+				item: {
+					Count: 1
+					id: "terramity:null_scarf"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 33.5d
+			y: -3.5d
+		}
+		{
+			id: "5B2B65EA1F0FB669"
+			tasks: [{
+				id: "2E7C3E339575FA4C"
+				item: {
+					Count: 1
+					id: "terramity:pearls_of_persephone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 35.0d
+			y: -3.5d
+		}
+		{
+			id: "0BEC51EA21B59F66"
+			tasks: [{
+				id: "2CC25738C4F1362E"
+				item: {
+					Count: 1
+					id: "terramity:nyxs_necklace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 36.5d
+			y: -3.5d
+		}
+		{
+			id: "05AF4610D0077C45"
+			tasks: [{
+				id: "639AC9774909ACA2"
+				item: {
+					Count: 1
+					id: "terramity:gold_medal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 38.0d
+			y: -3.5d
+		}
+		{
+			id: "558CC82EDE451E6C"
+			tasks: [{
+				id: "03C7F3D3DA6B98E7"
+				title: "hands"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			id: "25F6F427EAFFB87A"
+			tasks: [{
+				id: "52E8FC5FF0483B53"
+				item: {
+					Count: 1
+					id: "terramity:builder_mitts"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			id: "57AB15EF2B9D843C"
+			tasks: [{
+				id: "7330115EEED48BF8"
+				item: {
+					Count: 1
+					id: "terramity:piston_cuffs"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "7DD3233255F7384D"
+			tasks: [{
+				id: "24B74E92A19D6C3E"
+				item: {
+					Count: 1
+					id: "terramity:diamond_gauntlet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			id: "421AD0060AE51E99"
+			tasks: [{
+				id: "5158901F7525E559"
+				item: {
+					Count: 1
+					id: "terramity:famine_gauntlet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			id: "401A9FD30E3906F2"
+			tasks: [{
+				id: "248A107B25804268"
+				item: {
+					Count: 1
+					id: "terramity:gauntlet_of_decay"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			id: "55F580611684F8A0"
+			tasks: [{
+				id: "701DA4AE6E2EECC9"
+				item: {
+					Count: 1
+					id: "terramity:gravity_gauntlet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			id: "5189E4C13FFE6AB4"
+			tasks: [{
+				id: "000BD6DCFE39506D"
+				item: {
+					Count: 1
+					id: "terramity:experience_sapping_gauntlet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			id: "1D739256F07D9E89"
+			tasks: [{
+				id: "20BA06FD035F1678"
+				item: {
+					Count: 1
+					id: "terramity:divergency_gauntlet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			id: "693F87EF11775136"
+			tasks: [{
+				id: "70AA661B086FA339"
+				item: {
+					Count: 1
+					id: "terramity:hellrok_gauntlet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			id: "4A3B093BF6F91E2F"
+			tasks: [{
+				id: "10039041580BFD92"
+				item: {
+					Count: 1
+					id: "terramity:prismatic_gauntlet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			id: "5ADBBA4FCD6B20FE"
+			tasks: [{
+				id: "4935C70CDB836B1D"
+				item: {
+					Count: 1
+					id: "terramity:lava_gauntlet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -2.5d
+		}
+		{
+			id: "51AB21AE8E1E9E92"
+			tasks: [{
+				id: "765B4DAA8141A1A8"
+				item: {
+					Count: 1
+					id: "terramity:malware"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -2.5d
+		}
+		{
+			id: "1E4A3DD2B198FC6D"
+			tasks: [{
+				id: "332C6FFDE5FFC631"
+				item: {
+					Count: 1
+					id: "terramity:power_bracelets"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: -2.5d
+		}
+		{
+			id: "71EC862E6FF67C99"
+			tasks: [{
+				id: "38CE6CE9639EC920"
+				item: {
+					Count: 1
+					id: "terramity:poker_chip_bracelets"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: -2.5d
+		}
+		{
+			id: "67CF6721EF468319"
+			tasks: [{
+				id: "65ACCECC529737EE"
+				item: {
+					Count: 1
+					id: "terramity:chthonic_curse_bracelets"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: -2.5d
+		}
+		{
+			id: "3D1D1AF44A5609AB"
+			tasks: [{
+				id: "62C0557694FEDF9C"
+				item: {
+					Count: 1
+					id: "terramity:electron_bracelets"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 24.5d
+			y: -2.5d
+		}
+		{
+			id: "3EB50D1AE726648E"
+			tasks: [{
+				id: "39427765727C7524"
+				item: {
+					Count: 1
+					id: "terramity:malediction_bracelets"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: -2.5d
+		}
+		{
+			id: "6E88AF773F6BCE85"
+			tasks: [{
+				id: "3EDB03874D4A648F"
+				item: {
+					Count: 1
+					id: "terramity:exodium_twin_bracelets"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 27.5d
+			y: -2.5d
+		}
+		{
+			id: "6933A05F269E4A33"
+			tasks: [{
+				id: "10BB51C0219BFB2E"
+				item: {
+					Count: 1
+					id: "terramity:sacred_speed_bracelets"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 29.0d
+			y: -2.5d
+		}
+		{
+			id: "2D55B7B7E27E99E9"
+			tasks: [{
+				id: "6407DA8F553A5459"
+				item: {
+					Count: 1
+					id: "terramity:giant_sniffers_hoof"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 30.5d
+			y: -2.5d
+		}
+		{
+			id: "5B6D004E22BB2DE1"
+			tasks: [{
+				id: "2E306CB15FAC6B5B"
+				item: {
+					Count: 1
+					id: "terramity:guardians_hand"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 32.0d
+			y: -2.5d
+		}
+		{
+			id: "2EBC28CABB78AA22"
+			tasks: [{
+				id: "5669E8FF3A12463F"
+				item: {
+					Count: 1
+					id: "terramity:terawatt_bracers"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 33.5d
+			y: -2.5d
+		}
+		{
+			id: "20165793E77993B4"
+			tasks: [{
+				id: "046BF2765876F229"
+				title: "rings"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			id: "714026C660DB5360"
+			tasks: [{
+				id: "5EC546ED67050D63"
+				item: {
+					Count: 1
+					id: "terramity:diamond_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			id: "62EFA90E7E852FED"
+			tasks: [{
+				id: "29C96787742EABF9"
+				item: {
+					Count: 1
+					id: "terramity:sapphire_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			id: "4C694A3FD07E4650"
+			tasks: [{
+				id: "7BCABAD1BF64328E"
+				item: {
+					Count: 1
+					id: "terramity:sapphire_ring_plus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			id: "6952061251A3161E"
+			tasks: [{
+				id: "3DE020F3AD2F53B6"
+				item: {
+					Count: 1
+					id: "terramity:ruby_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			id: "097F82A2F5082EEE"
+			tasks: [{
+				id: "52EA0714CD30CCA1"
+				item: {
+					Count: 1
+					id: "terramity:ruby_ring_plus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			id: "28E1108515EE94DC"
+			tasks: [{
+				id: "44C509628E485D5C"
+				item: {
+					Count: 1
+					id: "terramity:leap_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			id: "59FB38D1FEF8863A"
+			tasks: [{
+				id: "1A5C1C7DF33AAD93"
+				item: {
+					Count: 1
+					id: "terramity:leap_ring_plus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			id: "6E287FD834B91925"
+			tasks: [{
+				id: "667D909B5CCDD949"
+				item: {
+					Count: 1
+					id: "terramity:excavation_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			id: "1EC0A3D7A0FA86EE"
+			tasks: [{
+				id: "45D0F0B7E893946E"
+				item: {
+					Count: 1
+					id: "terramity:supercharged_speed_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			id: "4B61C5B0FE3F9B10"
+			tasks: [{
+				id: "0BBA064D2BA60579"
+				item: {
+					Count: 1
+					id: "terramity:ring_of_luck"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			id: "3B54BB5745E09EAA"
+			tasks: [{
+				id: "724DB6D3E2F03BCF"
+				item: {
+					Count: 1
+					id: "terramity:ring_of_luck_plus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.5d
+		}
+		{
+			id: "6D2C73FC94DF6464"
+			tasks: [{
+				id: "33898A8720187F14"
+				item: {
+					Count: 1
+					id: "terramity:gamblers_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -1.5d
+		}
+		{
+			id: "091641E4A71F35B6"
+			tasks: [{
+				id: "7D69A7C5EDACB868"
+				item: {
+					Count: 1
+					id: "terramity:rush_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: -1.5d
+		}
+		{
+			id: "3B7C8F93882A5010"
+			tasks: [{
+				id: "63E93D344D727BF0"
+				item: {
+					Count: 1
+					id: "terramity:rush_ring_plus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: -1.5d
+		}
+		{
+			id: "6D3B1A2EB41B9657"
+			tasks: [{
+				id: "40D4A518FF71D881"
+				item: {
+					Count: 1
+					id: "terramity:express_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: -1.5d
+		}
+		{
+			id: "65903F63E8BC3783"
+			tasks: [{
+				id: "07C622672B974BF5"
+				item: {
+					Count: 1
+					id: "terramity:ring_of_rejuvenation"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 24.5d
+			y: -1.5d
+		}
+		{
+			id: "2CC160E1DBDEF8AE"
+			tasks: [{
+				id: "4408AE70F29BAD6C"
+				item: {
+					Count: 1
+					id: "terramity:ring_of_rejuvenation_plus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: -1.5d
+		}
+		{
+			id: "5B9A9F31F8F79BE0"
+			tasks: [{
+				id: "2606262701C304ED"
+				item: {
+					Count: 1
+					id: "terramity:life_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 27.5d
+			y: -1.5d
+		}
+		{
+			id: "67C4520CC4C6FB34"
+			tasks: [{
+				id: "52CB4005D6A8C41F"
+				item: {
+					Count: 1
+					id: "terramity:life_ring_plus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 29.0d
+			y: -1.5d
+		}
+		{
+			id: "1C68BC969BD6807C"
+			tasks: [{
+				id: "621E319039927620"
+				item: {
+					Count: 1
+					id: "terramity:chaos_heart_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 30.5d
+			y: -1.5d
+		}
+		{
+			id: "3BBCE765F3945283"
+			tasks: [{
+				id: "7FA48AD657952669"
+				item: {
+					Count: 1
+					id: "terramity:glass_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 32.0d
+			y: -1.5d
+		}
+		{
+			id: "1310E0CEA007447C"
+			tasks: [{
+				id: "1ABE8A46678C0809"
+				item: {
+					Count: 1
+					id: "terramity:daemonium_glass_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 33.5d
+			y: -1.5d
+		}
+		{
+			id: "7173FED5BEDF32DF"
+			tasks: [{
+				id: "11B413C472343E6C"
+				item: {
+					Count: 1
+					id: "terramity:band_of_power"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 35.0d
+			y: -1.5d
+		}
+		{
+			id: "65E539F0CD0C052B"
+			tasks: [{
+				id: "3EC4F8950E261AF9"
+				item: {
+					Count: 1
+					id: "terramity:band_of_power_plus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 36.5d
+			y: -1.5d
+		}
+		{
+			id: "5C4AE89C606D08F6"
+			tasks: [{
+				id: "72806AA13CAE6446"
+				item: {
+					Count: 1
+					id: "terramity:tearstone_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 38.0d
+			y: -1.5d
+		}
+		{
+			id: "114EFC2C24D47D43"
+			tasks: [{
+				id: "54C4F7EAE456AD93"
+				item: {
+					Count: 1
+					id: "terramity:gnome_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 39.5d
+			y: -1.5d
+		}
+		{
+			id: "4F25B74DA789FF6D"
+			tasks: [{
+				id: "152709F12B2D6C63"
+				item: {
+					Count: 1
+					id: "terramity:burning_spirit_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 41.0d
+			y: -1.5d
+		}
+		{
+			id: "28CAC684C8044D53"
+			tasks: [{
+				id: "73CA88A848FEACB2"
+				item: {
+					Count: 1
+					id: "terramity:agility_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 42.5d
+			y: -1.5d
+		}
+		{
+			id: "386658C2C240120E"
+			tasks: [{
+				id: "27430BC820770615"
+				item: {
+					Count: 1
+					id: "terramity:prismatic_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 44.0d
+			y: -1.5d
+		}
+		{
+			id: "6DC35F6604727C40"
+			tasks: [{
+				id: "4E99D5EB1B428509"
+				item: {
+					Count: 1
+					id: "terramity:rainbow_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 45.5d
+			y: -1.5d
+		}
+		{
+			id: "66D5E60C4C3D9140"
+			tasks: [{
+				id: "23CDEC9E29169D42"
+				item: {
+					Count: 1
+					id: "terramity:xp_remedy_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 47.0d
+			y: -1.5d
+		}
+		{
+			id: "5F9EB70EBE8DA607"
+			tasks: [{
+				id: "1F9E67FA28AF052C"
+				item: {
+					Count: 1
+					id: "terramity:band_of_drifting"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 48.5d
+			y: -1.5d
+		}
+		{
+			id: "39D981BE68B82420"
+			tasks: [{
+				id: "727BF3CFB198D8E2"
+				item: {
+					Count: 1
+					id: "terramity:dragon_band"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 50.0d
+			y: -1.5d
+		}
+		{
+			id: "6FFF9D92C0050CA1"
+			tasks: [{
+				id: "17079E04866B2AE1"
+				title: "belt"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			id: "2C9C3D1F68572DE5"
+			tasks: [{
+				id: "0DF2D3E2BFB7967B"
+				item: {
+					Count: 1
+					id: "terramity:leather_belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "032C7771BF9671F2"
+			tasks: [{
+				id: "2E454ED9AE23B3DF"
+				item: {
+					Count: 1
+					id: "terramity:diamond_studded_belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "49FB6258350ACEED"
+			tasks: [{
+				id: "7E6B13D6FCB9D835"
+				item: {
+					Count: 1
+					id: "terramity:slam_belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			id: "6B39FC70D7AB08CC"
+			tasks: [{
+				id: "0E235CC1E26D82C0"
+				item: {
+					Count: 1
+					id: "terramity:anti_gravity_belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			id: "22F57AE4A41842A5"
+			tasks: [{
+				id: "5AF9EEFD051682E9"
+				item: {
+					Count: 1
+					id: "terramity:asteroid_belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			id: "57B000D36B0F3217"
+			tasks: [{
+				id: "25CD8A9A975F4FF5"
+				item: {
+					Count: 1
+					id: "terramity:kuiper_belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			id: "1214D0FF85873D7D"
+			tasks: [{
+				id: "5730FC8542FE3F2A"
+				item: {
+					Count: 1
+					id: "terramity:sarashi"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			id: "4D76CECBEB916C64"
+			tasks: [{
+				id: "7800947FB805F8C0"
+				item: {
+					Count: 1
+					id: "terramity:swordsmans_sarashi"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			id: "5925E11E59DEBB8C"
+			tasks: [{
+				id: "02F4221131C8846C"
+				item: {
+					Count: 1
+					id: "terramity:inverse_sarashi"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -0.5d
+		}
+		{
+			id: "6211028708504628"
+			tasks: [{
+				id: "6463641E1423073A"
+				item: {
+					Count: 1
+					id: "terramity:prismatic_sarashi"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			id: "4246396EC61C33CE"
+			tasks: [{
+				id: "3F07852A892FC361"
+				item: {
+					Count: 1
+					id: "terramity:belt_of_the_gnome_king"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: -0.5d
+		}
+		{
+			id: "4D834183720C8131"
+			tasks: [{
+				id: "3A11E533E563FCB2"
+				item: {
+					Count: 1
+					id: "terramity:flameburst_belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: -0.5d
+		}
+		{
+			id: "52575EA0641FA01B"
+			tasks: [{
+				id: "14E48867BC66C24A"
+				item: {
+					Count: 1
+					id: "terramity:hurricane_belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: -0.5d
+		}
+		{
+			id: "64F8D585621FEBA9"
+			tasks: [{
+				id: "6E34E17C9844EB44"
+				item: {
+					Count: 1
+					id: "terramity:shinobi_sash"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: -0.5d
+		}
+		{
+			id: "6C8DAF1A3A826878"
+			tasks: [{
+				id: "6776E4B76E0E20FA"
+				item: {
+					Count: 1
+					id: "terramity:sacrificial_sash"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: -0.5d
+		}
+		{
+			id: "0B649D9C90312AB2"
+			tasks: [{
+				id: "646BD76236DA2117"
+				item: {
+					Count: 1
+					id: "terramity:shadowflame_sash"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 24.5d
+			y: -0.5d
+		}
+		{
+			id: "536B7EFE1CB0A046"
+			tasks: [{
+				id: "0B1ECB55395B1A00"
+				item: {
+					Count: 1
+					id: "terramity:blink_belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: -0.5d
+		}
+		{
+			id: "324624105292FBD8"
+			tasks: [{
+				id: "65ABF8D51D236F39"
+				item: {
+					Count: 1
+					id: "terramity:hubris_of_icarus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 27.5d
+			y: -0.5d
+		}
+		{
+			id: "2ED50939699166EC"
+			tasks: [{
+				id: "608A00521CAA567B"
+				item: {
+					Count: 1
+					id: "terramity:fragile_divinity"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 29.0d
+			y: -0.5d
+		}
+		{
+			id: "2B8C097AF1C1B20E"
+			tasks: [{
+				id: "773A263C2BBAAA78"
+				item: {
+					Count: 1
+					id: "terramity:super_sniffers_pelt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 30.5d
+			y: -0.5d
+		}
+		{
+			id: "20A8491C3F4603D8"
+			tasks: [{
+				id: "4B187597981A3DB4"
+				item: {
+					Count: 1
+					id: "terramity:ultra_sniffers_pelt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 32.0d
+			y: -0.5d
+		}
+		{
+			id: "2092F94D8BDDBA20"
+			tasks: [{
+				id: "73507A47AF68BF17"
+				title: "charms"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "7C13833BCCC659AB"
+			tasks: [{
+				id: "711C355D136EEBA4"
+				item: {
+					Count: 1
+					id: "terramity:adrenaline_tablets"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "36BB9BCF748609B4"
+			tasks: [{
+				id: "407C7CB40BF9AACE"
+				item: {
+					Count: 1
+					id: "terramity:melatonin_gummies"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "3FACC97B2A01A238"
+			tasks: [{
+				id: "1661948DFA99E4D6"
+				item: {
+					Count: 1
+					id: "terramity:morphine_pills"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			id: "286F00E5B4B3CCCB"
+			tasks: [{
+				id: "2453D3F63CA49811"
+				item: {
+					Count: 1
+					id: "terramity:ibuprofen_capsules"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			id: "5B076A7073F3BE9F"
+			tasks: [{
+				id: "151CA92AAA209B47"
+				item: {
+					Count: 1
+					id: "terramity:fermented_apple_cider"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			id: "7185C7ACFABDEDA3"
+			tasks: [{
+				id: "79504D30F28E1057"
+				item: {
+					Count: 1
+					id: "terramity:the_pill"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			id: "1246962D1CAA082A"
+			tasks: [{
+				id: "6573D57ABB888229"
+				item: {
+					Count: 1
+					id: "terramity:spring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			id: "633FDA400624BFDC"
+			tasks: [{
+				id: "3B2B39BE10EC6A1B"
+				item: {
+					Count: 1
+					id: "terramity:ball_n_chain"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.5d
+		}
+		{
+			id: "49DECEB50E0A1874"
+			tasks: [{
+				id: "082796E3DF62B0EA"
+				item: {
+					Count: 1
+					id: "terramity:bomb_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.5d
+		}
+		{
+			id: "70BD20D65DBA006E"
+			tasks: [{
+				id: "56B31A7D4D982ACE"
+				item: {
+					Count: 1
+					id: "terramity:steel_shell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.5d
+		}
+		{
+			id: "40B4575D1F9D850C"
+			tasks: [{
+				id: "3454A9EF84E20CD1"
+				item: {
+					Count: 1
+					id: "terramity:dr_binty"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.5d
+		}
+		{
+			id: "4AE8955E91FAF318"
+			tasks: [{
+				id: "230C953D82AD87E7"
+				item: {
+					Count: 1
+					id: "terramity:phantom_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.5d
+		}
+		{
+			id: "33B04E35675162C1"
+			tasks: [{
+				id: "067C85E5955044E9"
+				item: {
+					Count: 1
+					id: "terramity:cardboard_pop_up_fort"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.5d
+		}
+		{
+			id: "011864521FC163C8"
+			tasks: [{
+				id: "059D0618F1C42422"
+				item: {
+					Count: 1
+					id: "terramity:shinobis_substitute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 21.5d
+			y: 0.5d
+		}
+		{
+			id: "51CF373B39B49137"
+			tasks: [{
+				id: "7EF2FDB9D6A07C2C"
+				item: {
+					Count: 1
+					id: "terramity:radiant_honey"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 23.0d
+			y: 0.5d
+		}
+		{
+			id: "6E87EDEDF9322F71"
+			tasks: [{
+				id: "03788A2A0894A917"
+				item: {
+					Count: 1
+					id: "terramity:celestial_brew"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 24.5d
+			y: 0.5d
+		}
+		{
+			id: "687597A6BFDC672C"
+			tasks: [{
+				id: "03F8393AA316131C"
+				item: {
+					Count: 1
+					id: "terramity:ambrosia"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 26.0d
+			y: 0.5d
+		}
+		{
+			id: "40280176A8653674"
+			tasks: [{
+				id: "6FC593C616807B7E"
+				item: {
+					Count: 1
+					id: "terramity:chthonic_nectar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 27.5d
+			y: 0.5d
+		}
+		{
+			id: "02C08ABC308ECF20"
+			tasks: [{
+				id: "7BF59255A83407DD"
+				item: {
+					Count: 1
+					id: "terramity:pot_of_hot_coals"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 29.0d
+			y: 0.5d
+		}
+		{
+			id: "1E670E58D5F07D57"
+			tasks: [{
+				id: "3DC5FF5BAB9680AD"
+				item: {
+					Count: 1
+					id: "terramity:acidic_ampoule"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 30.5d
+			y: 0.5d
+		}
+		{
+			id: "31BF0FFEDFFA8EDB"
+			tasks: [{
+				id: "2E4F74F3A8BE5EB5"
+				item: {
+					Count: 1
+					id: "terramity:eternal_shadowflame"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 32.0d
+			y: 0.5d
+		}
+		{
+			id: "2623BC5DEDA6EFAB"
+			tasks: [{
+				id: "6F40B9842C3DD551"
+				item: {
+					Count: 1
+					id: "terramity:carton_of_milk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 33.5d
+			y: 0.5d
+		}
+		{
+			id: "14D9210E0F53B154"
+			tasks: [{
+				id: "3827F0CCCC6508D6"
+				item: {
+					Count: 1
+					id: "terramity:carton_of_chocolate_milk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 35.0d
+			y: 0.5d
+		}
+		{
+			id: "24498E824B7AF5C8"
+			tasks: [{
+				id: "3B5E1F7851BDE3E8"
+				item: {
+					Count: 1
+					id: "terramity:carton_of_sweetberry_milk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 36.5d
+			y: 0.5d
+		}
+		{
+			id: "367679AED773B92B"
+			tasks: [{
+				id: "6D9061888CD2F854"
+				item: {
+					Count: 1
+					id: "terramity:carton_of_glowberry_milk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 38.0d
+			y: 0.5d
+		}
+		{
+			id: "366EDF83C5BFF37E"
+			tasks: [{
+				id: "637FEF960242CB46"
+				item: {
+					Count: 1
+					id: "terramity:ultrabright_ink_sac"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 39.5d
+			y: 0.5d
+		}
+		{
+			id: "37FF5DEFEE86489B"
+			tasks: [{
+				id: "46F66BD368F846C9"
+				item: {
+					Count: 1
+					id: "terramity:extremely_thick_oil"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 41.0d
+			y: 0.5d
+		}
+		{
+			id: "52F322B904B4DD10"
+			tasks: [{
+				id: "7C093620CA67EAEC"
+				item: {
+					Count: 1
+					id: "terramity:flippers"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 42.5d
+			y: 0.5d
+		}
+		{
+			id: "62630E33AFF64B59"
+			tasks: [{
+				id: "2BC36EDC3CFDEDAC"
+				item: {
+					Count: 1
+					id: "terramity:gilded_feather"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 44.0d
+			y: 0.5d
+		}
+		{
+			id: "58B7BA2B1ACB44DE"
+			tasks: [{
+				id: "48B7407B4913BC4C"
+				item: {
+					Count: 1
+					id: "terramity:prismatic_feather"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 45.5d
+			y: 0.5d
+		}
+		{
+			id: "4890D3019E28C583"
+			tasks: [{
+				id: "2410B2D5263A8EC1"
+				item: {
+					Count: 1
+					id: "terramity:holy_chalice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 47.0d
+			y: 0.5d
+		}
+		{
+			id: "64D70CC65CFF2808"
+			tasks: [{
+				id: "6F8F87CCC5947C41"
+				item: {
+					Count: 1
+					id: "terramity:forbidden_chalice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 48.5d
+			y: 0.5d
+		}
+		{
+			id: "21490569A55E77C7"
+			tasks: [{
+				id: "186BEC8CEC1DAAA8"
+				item: {
+					Count: 1
+					id: "terramity:ammo_box"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 50.0d
+			y: 0.5d
+		}
+		{
+			id: "1B2EDE02ABC513E3"
+			tasks: [{
+				id: "4D59A70A41916371"
+				item: {
+					Count: 1
+					id: "terramity:bottomless_ammo_box"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 51.5d
+			y: 0.5d
+		}
+		{
+			id: "4C2FE4E65517C06A"
+			tasks: [{
+				id: "61EF82FBDB2961C6"
+				item: {
+					Count: 1
+					id: "terramity:projectile_defense_talisman"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 53.0d
+			y: 0.5d
+		}
+		{
+			id: "2CE0C49FE7C54E8B"
+			tasks: [{
+				id: "4FB14E540DDD9CB5"
+				item: {
+					Count: 1
+					id: "terramity:crest_of_the_void"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 54.5d
+			y: 0.5d
+		}
+		{
+			id: "4D9DC01D776F11E1"
+			tasks: [{
+				id: "406354B6F1BE0DED"
+				item: {
+					Count: 1
+					id: "terramity:crystal_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 56.0d
+			y: 0.5d
+		}
+		{
+			id: "226038DCCE8307F8"
+			tasks: [{
+				id: "4BC598058FDAC57C"
+				item: {
+					Count: 1
+					id: "terramity:gaias_grace"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 57.5d
+			y: 0.5d
+		}
+		{
+			id: "79B7CB300E1D38E2"
+			tasks: [{
+				id: "3B11B2B3FFBC9582"
+				item: {
+					Count: 1
+					id: "terramity:forbidden_fruit"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 59.0d
+			y: 0.5d
+		}
+		{
+			id: "4122BD7FB5788F5B"
+			tasks: [{
+				id: "279BD59BC15365FC"
+				item: {
+					Count: 1
+					id: "terramity:cloud_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 60.5d
+			y: 0.5d
+		}
+		{
+			id: "2839C453E98939A6"
+			tasks: [{
+				id: "456A373014B41601"
+				item: {
+					Count: 1
+					id: "terramity:hurricane_in_a_jar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 62.0d
+			y: 0.5d
+		}
+		{
+			id: "5FCE5FD1CA9F12C0"
+			tasks: [{
+				id: "4628E1133F333A40"
+				item: {
+					Count: 1
+					id: "terramity:amp_shield"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 63.5d
+			y: 0.5d
+		}
+		{
+			id: "01ACF27A55D71527"
+			tasks: [{
+				id: "562169B3FFA0298E"
+				item: {
+					Count: 1
+					id: "terramity:headhunter_talisman"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 65.0d
+			y: 0.5d
+		}
+		{
+			id: "0111AD9E8B809D01"
+			tasks: [{
+				id: "489BB4C2B57D52F8"
+				item: {
+					Count: 1
+					id: "terramity:headhunter_talisman_plus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 66.5d
+			y: 0.5d
+		}
+		{
+			id: "28DA1EFC922AAFE4"
+			tasks: [{
+				id: "7A68764C43DB1DFD"
+				item: {
+					Count: 1
+					id: "terramity:proximity_badge"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 68.0d
+			y: 0.5d
+		}
+		{
+			id: "1A1F603C60D6D922"
+			tasks: [{
+				id: "08DBE12BA15E3148"
+				item: {
+					Count: 1
+					id: "terramity:chthonic_shell_casing"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 69.5d
+			y: 0.5d
+		}
+		{
+			id: "2BB76A2FDFA03B7C"
+			tasks: [{
+				id: "5A10C7A8BB9915AC"
+				item: {
+					Count: 1
+					id: "terramity:chthonic_cursemark"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 71.0d
+			y: 0.5d
+		}
+		{
+			id: "7F10F97A0744A8E7"
+			tasks: [{
+				id: "145970123CBD0C1F"
+				item: {
+					Count: 1
+					id: "terramity:hover_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 72.5d
+			y: 0.5d
+		}
+		{
+			id: "2E7AF43328B1F519"
+			tasks: [{
+				id: "0E1AC8DA4C598A42"
+				item: {
+					Count: 1
+					id: "terramity:hover_charm_plus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 74.0d
+			y: 0.5d
+		}
+		{
+			id: "0614B04D6BA0FCBE"
+			tasks: [{
+				id: "02934B7C5D668EBF"
+				item: {
+					Count: 1
+					id: "terramity:hover_charm_plus_plus"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 75.5d
+			y: 0.5d
+		}
+		{
+			id: "73019A374B02AB58"
+			tasks: [{
+				id: "68E869A529468024"
+				item: {
+					Count: 1
+					id: "terramity:anvil_talisman"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 77.0d
+			y: 0.5d
+		}
+		{
+			id: "18AC8284D45A08D8"
+			tasks: [{
+				id: "43F8C93304974746"
+				item: {
+					Count: 1
+					id: "terramity:sharpening_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 78.5d
+			y: 0.5d
+		}
+		{
+			id: "3659702D5FE967B2"
+			tasks: [{
+				id: "3ED27A6BF711E06C"
+				item: {
+					Count: 1
+					id: "terramity:magma_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 80.0d
+			y: 0.5d
+		}
+		{
+			id: "274EDC0FAFAA8C84"
+			tasks: [{
+				id: "10889F09EAA66BE7"
+				item: {
+					Count: 1
+					id: "terramity:shadowflame_stone"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 81.5d
+			y: 0.5d
+		}
+		{
+			id: "16CAD2DA10A533F5"
+			tasks: [{
+				id: "22072EB8825EFFE1"
+				item: {
+					Count: 1
+					id: "terramity:fateful_coin"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 83.0d
+			y: 0.5d
+		}
+		{
+			id: "5135E28510B15A2B"
+			tasks: [{
+				id: "637E27464FFF9379"
+				item: {
+					Count: 1
+					id: "terramity:stygian_safety_talisman"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 84.5d
+			y: 0.5d
+		}
+		{
+			id: "68F6EB78D5D7D63B"
+			tasks: [{
+				id: "0BCBA331B9827358"
+				item: {
+					Count: 1
+					id: "terramity:lucky_dice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 86.0d
+			y: 0.5d
+		}
+		{
+			id: "3141DB6D49A6138E"
+			tasks: [{
+				id: "0E5FB0C2A0BE1D7B"
+				item: {
+					Count: 1
+					id: "terramity:die_of_revival"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 87.5d
+			y: 0.5d
+		}
+		{
+			id: "1917CD42D959EA90"
+			tasks: [{
+				id: "2CFAFC8E19275BC3"
+				item: {
+					Count: 1
+					id: "terramity:devils_dice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 89.0d
+			y: 0.5d
+		}
+		{
+			id: "15F2EA942C046E26"
+			tasks: [{
+				id: "23C9FBACB7CF5D06"
+				item: {
+					Count: 1
+					id: "terramity:nullifying_dice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 90.5d
+			y: 0.5d
+		}
+		{
+			id: "30D04F1D853A51B6"
+			tasks: [{
+				id: "11ACC99DD1880722"
+				item: {
+					Count: 1
+					id: "terramity:weighted_die"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 92.0d
+			y: 0.5d
+		}
+		{
+			id: "484E23DEAF98D5BA"
+			tasks: [{
+				id: "2F84806B7D32D655"
+				item: {
+					Count: 1
+					id: "terramity:analeptic_amphora"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 93.5d
+			y: 0.5d
+		}
+		{
+			id: "60710A86A0114DE2"
+			tasks: [{
+				id: "6DC490F491B22234"
+				item: {
+					Count: 1
+					id: "terramity:energized_core"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 95.0d
+			y: 0.5d
+		}
+		{
+			id: "510C8A49F1F96B4D"
+			tasks: [{
+				id: "11502DF84F084287"
+				item: {
+					Count: 1
+					id: "terramity:ethereal_eclipse_emblem"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 96.5d
+			y: 0.5d
+		}
+		{
+			id: "5B63B08F968A134C"
+			tasks: [{
+				id: "51010D9E95235ED7"
+				item: {
+					Count: 1
+					id: "terramity:neutron_star"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 98.0d
+			y: 0.5d
+		}
+		{
+			id: "1160B4C75E4FA5CF"
+			tasks: [{
+				id: "77D7314F3EF4632B"
+				item: {
+					Count: 1
+					id: "terramity:antimatter_pacemaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 99.5d
+			y: 0.5d
+		}
+		{
+			id: "2F68ACF0E70D0529"
+			tasks: [{
+				id: "0C1D4D6FCD2B05C9"
+				item: {
+					Count: 1
+					id: "terramity:ultra_sniffer_fur"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 101.0d
+			y: 0.5d
+		}
+		{
+			id: "6C2B2A6C63E86D8E"
+			tasks: [{
+				id: "76C9B06B61EA5808"
+				title: "armor"
+				type: "checkmark"
+			}]
+			title: "ARMOR"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			id: "66871437DEA4EE8F"
+			tasks: [
+				{
+					id: "0C3F336BB44BCB9A"
+					item: {
+						Count: 1
+						id: "terramity:ruby_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69971713346A4D67"
+					item: {
+						Count: 1
+						id: "terramity:ruby_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19FC98D383D9E1BE"
+					item: {
+						Count: 1
+						id: "terramity:ruby_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71815B4ECAF66D89"
+					item: {
+						Count: 1
+						id: "terramity:ruby_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "RUBY"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "4D1D965F1A43EB87"
+			tasks: [
+				{
+					id: "61C1F6A0BAAFC3D4"
+					item: {
+						Count: 1
+						id: "terramity:sapphire_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3DACCB125F0DDC63"
+					item: {
+						Count: 1
+						id: "terramity:sapphire_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06C4EE753964AFD4"
+					item: {
+						Count: 1
+						id: "terramity:sapphire_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "585D12A9E38BEA49"
+					item: {
+						Count: 1
+						id: "terramity:sapphire_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "SAPPHIRE"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			id: "7B700388ABEDCBCB"
+			tasks: [
+				{
+					id: "0E4C5331EC848069"
+					item: {
+						Count: 1
+						id: "terramity:topaz_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BE9F193F41927C3"
+					item: {
+						Count: 1
+						id: "terramity:topaz_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DAC512298676184"
+					item: {
+						Count: 1
+						id: "terramity:topaz_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "594BA8121E3DE324"
+					item: {
+						Count: 1
+						id: "terramity:topaz_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "TOPAZ"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "73045F5B5486AD05"
+			tasks: [
+				{
+					id: "6B6543E5182AB677"
+					item: {
+						Count: 1
+						id: "terramity:onyx_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "751CF67921C63EB4"
+					item: {
+						Count: 1
+						id: "terramity:onyx_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BF07E3BC8D4E88C"
+					item: {
+						Count: 1
+						id: "terramity:onyx_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "185E7331CE11F069"
+					item: {
+						Count: 1
+						id: "terramity:onyx_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "ONYX"
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			id: "0000D577768F687B"
+			tasks: [
+				{
+					id: "1E15C1ACCD68ACF4"
+					item: {
+						Count: 1
+						id: "terramity:dimlite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41FAB972100243B5"
+					item: {
+						Count: 1
+						id: "terramity:dimlite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3570CD62745B1E9D"
+					item: {
+						Count: 1
+						id: "terramity:dimlite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BBAAB802156DCCC"
+					item: {
+						Count: 1
+						id: "terramity:dimlite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "DIMLITE"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			id: "0512F04431BAFD77"
+			tasks: [
+				{
+					id: "41045F53688B831E"
+					item: {
+						Count: 1
+						id: "terramity:virentium_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5438F603C75858C0"
+					item: {
+						Count: 1
+						id: "terramity:virentium_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AAFE214439E9663"
+					item: {
+						Count: 1
+						id: "terramity:virentium_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AFA43A3134EB503"
+					item: {
+						Count: 1
+						id: "terramity:virentium_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "VIRENTIUM"
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			id: "1FFFC6E3C3D5BF4B"
+			tasks: [
+				{
+					id: "297D150AA29A0BFE"
+					item: {
+						Count: 1
+						id: "terramity:cosmilite_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71588F93F3ECDF5A"
+					item: {
+						Count: 1
+						id: "terramity:cosmilite_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "671ED3210029D9A5"
+					item: {
+						Count: 1
+						id: "terramity:cosmilite_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A2E24C643C7BDCA"
+					item: {
+						Count: 1
+						id: "terramity:cosmilite_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "COSMILITE"
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			id: "149DB0A39F831729"
+			tasks: [
+				{
+					id: "07FF8963C0D0EE80"
+					item: {
+						Count: 1
+						id: "terramity:iridium_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D31C811844C0291"
+					item: {
+						Count: 1
+						id: "terramity:iridium_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73E37844DD7258B8"
+					item: {
+						Count: 1
+						id: "terramity:iridium_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BCC02447A57CA10"
+					item: {
+						Count: 1
+						id: "terramity:iridium_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "IRIDIUM"
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			id: "3151C06E3F0849D8"
+			tasks: [
+				{
+					id: "55B3A317F79ECE4C"
+					item: {
+						Count: 1
+						id: "terramity:void_mage_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04F6ED690A031C37"
+					item: {
+						Count: 1
+						id: "terramity:void_mage_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "703999879C39445C"
+					item: {
+						Count: 1
+						id: "terramity:void_mage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BCCADA050FDF918"
+					item: {
+						Count: 1
+						id: "terramity:void_mage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "VOID"
+			x: 13.0d
+			y: 4.0d
+		}
+		{
+			id: "79351E92FF60C29C"
+			tasks: [
+				{
+					id: "5BE6CF2E216C5417"
+					item: {
+						Count: 1
+						id: "terramity:conductite_scouter_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3007B43DC899D11B"
+					item: {
+						Count: 1
+						id: "terramity:conductite_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B223196D4F277D5"
+					item: {
+						Count: 1
+						id: "terramity:conductite_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D435B93DE323DA3"
+					item: {
+						Count: 1
+						id: "terramity:conductite_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "CONDUCTITE"
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			id: "3A37A25606EA8D0D"
+			tasks: [
+				{
+					id: "6BD7A10A48CEE96B"
+					item: {
+						Count: 1
+						id: "terramity:hellspec_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CC531405B33D9AF"
+					item: {
+						Count: 1
+						id: "terramity:hellspec_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37B995354664C818"
+					item: {
+						Count: 1
+						id: "terramity:hellspec_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4AFBAC33BB770EE4"
+					item: {
+						Count: 1
+						id: "terramity:hellspec_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			id: "7466FE1CBE6A71DF"
+			tasks: [
+				{
+					id: "6572EDE379E83688"
+					item: {
+						Count: 1
+						id: "terramity:nyxium_knight_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25F1E01B33853A61"
+					item: {
+						Count: 1
+						id: "terramity:nyxium_knight_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5520339E02AA1A75"
+					item: {
+						Count: 1
+						id: "terramity:nyxium_knight_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FA45C2BE75A9E7D"
+					item: {
+						Count: 1
+						id: "terramity:nyxium_knight_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "NYXIUM"
+			x: 17.5d
+			y: 4.0d
+		}
+		{
+			id: "37A886FE1E949F0B"
+			tasks: [
+				{
+					id: "23431C4B67D43150"
+					item: {
+						Count: 1
+						id: "terramity:exodium_warlock_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61BA267C00EC3E68"
+					item: {
+						Count: 1
+						id: "terramity:exodium_warlock_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48E65E4938547399"
+					item: {
+						Count: 1
+						id: "terramity:exodium_warlock_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B0B3C6418305024"
+					item: {
+						Count: 1
+						id: "terramity:exodium_warlock_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "EXODIUM"
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			id: "369F5324DA8108EA"
+			tasks: [
+				{
+					id: "05E9F42802279048"
+					item: {
+						Count: 1
+						id: "terramity:reverium_paladin_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "376A29ED7C885216"
+					item: {
+						Count: 1
+						id: "terramity:reverium_paladin_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63CC41D378279330"
+					item: {
+						Count: 1
+						id: "terramity:reverium_paladin_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C89F3CCD4889B90"
+					item: {
+						Count: 1
+						id: "terramity:reverium_paladin_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "REVERIUM"
+			x: 20.5d
+			y: 4.0d
+		}
+		{
+			id: "1A3FD26A818D5920"
+			tasks: [
+				{
+					id: "5A93CF7490F175F0"
+					item: {
+						Count: 1
+						id: "terramity:evil_king_armor_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33A5E654B3F9C1D4"
+					item: {
+						Count: 1
+						id: "terramity:evil_king_armor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A96384735B2CB4D"
+					item: {
+						Count: 1
+						id: "terramity:evil_king_armor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19A3635183E93836"
+					item: {
+						Count: 1
+						id: "terramity:evil_king_armor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "EVIL KING"
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			id: "79A3429FB1A6C4B4"
+			tasks: [
+				{
+					id: "71E4A4F7FF9E8B64"
+					item: {
+						Count: 1
+						id: "terramity:conjuror_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59D4DB0FA86CB4A6"
+					item: {
+						Count: 1
+						id: "terramity:conjuror_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73B40A9E6DC3FA27"
+					item: {
+						Count: 1
+						id: "terramity:conjuror_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75201CED05F913FD"
+					item: {
+						Count: 1
+						id: "terramity:conjuror_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "CONJUROR"
+			x: 23.5d
+			y: 4.0d
+		}
+		{
+			id: "2F97214B08CF776C"
+			tasks: [{
+				id: "4CF7F8026D4A199C"
+				title: "TOOLS"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			id: "7074EBF83D30FB1F"
+			tasks: [
+				{
+					id: "647C94D539D9D013"
+					item: {
+						Count: 1
+						id: "terramity:ruby_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E1133E5200F382B"
+					item: {
+						Count: 1
+						id: "terramity:ruby_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2548F6EC89B657DE"
+					item: {
+						Count: 1
+						id: "terramity:ruby_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F8C316985C65869"
+					item: {
+						Count: 1
+						id: "terramity:ruby_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "RUBY TOOLS"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			id: "3FB668D2AAC14A2D"
+			tasks: [
+				{
+					id: "66EBF92184A732ED"
+					item: {
+						Count: 1
+						id: "terramity:sapphire_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3262E76BE2D74957"
+					item: {
+						Count: 1
+						id: "terramity:sapphire_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CF3EC0FA5AC0070"
+					item: {
+						Count: 1
+						id: "terramity:sapphire_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B102AA29D6CC8D0"
+					item: {
+						Count: 1
+						id: "terramity:sapphire_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "SAPPHIRE TOOLS"
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			id: "21D2BDABEE5F8AB5"
+			tasks: [
+				{
+					id: "476CF0AC49BA23E6"
+					item: {
+						Count: 1
+						id: "terramity:topaz_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E6EBCCBDB2B03E5"
+					item: {
+						Count: 1
+						id: "terramity:topaz_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52358159678929F3"
+					item: {
+						Count: 1
+						id: "terramity:topaz_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44E0B718766F8DD3"
+					item: {
+						Count: 1
+						id: "terramity:topaz_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "TOPAZ TOOLS"
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			id: "47E7D203FB3D3FF7"
+			tasks: [
+				{
+					id: "2A107B2EA1C5DB2E"
+					item: {
+						Count: 1
+						id: "terramity:onyx_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "177E70B70C2089B7"
+					item: {
+						Count: 1
+						id: "terramity:onyx_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6564843DD92B99C8"
+					item: {
+						Count: 1
+						id: "terramity:onyx_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C6AAC92771D0436"
+					item: {
+						Count: 1
+						id: "terramity:onyx_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "ONYX TOOLS"
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			id: "5127A27B4FBB608D"
+			tasks: [
+				{
+					id: "6C53A5C41A0E3984"
+					item: {
+						Count: 1
+						id: "terramity:dimlite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47087A6F9471ACDC"
+					item: {
+						Count: 1
+						id: "terramity:dimlite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57B6DCBD8EC34422"
+					item: {
+						Count: 1
+						id: "terramity:dimlite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AC22A7783A5406A"
+					item: {
+						Count: 1
+						id: "terramity:dimlite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "DIMLITE TOOLS"
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			id: "3DE7D8BF89670C4B"
+			tasks: [
+				{
+					id: "381C318BD88EDFEC"
+					item: {
+						Count: 1
+						id: "terramity:virentium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "607857E36EA433A7"
+					item: {
+						Count: 1
+						id: "terramity:virentium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72AC698C12BE29BC"
+					item: {
+						Count: 1
+						id: "terramity:virentium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66858BE6327EE217"
+					item: {
+						Count: 1
+						id: "terramity:virentium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "VIRENTIUM TOOLS"
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			id: "24CD55028980BDCB"
+			tasks: [
+				{
+					id: "0313E687A72917C0"
+					item: {
+						Count: 1
+						id: "terramity:cosmilite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76A3C2AEC9365915"
+					item: {
+						Count: 1
+						id: "terramity:cosmilite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A50AF63CC657E8D"
+					item: {
+						Count: 1
+						id: "terramity:cosmilite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27AC0A371AE19763"
+					item: {
+						Count: 1
+						id: "terramity:cosmilite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "COSMILITE TOOLS"
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			id: "7605E38E5C7315DA"
+			tasks: [
+				{
+					id: "508DED97BDBD8B5E"
+					item: {
+						Count: 1
+						id: "terramity:iridium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F45A90D5C9BFFCE"
+					item: {
+						Count: 1
+						id: "terramity:iridium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "356276B3EC46BE1A"
+					item: {
+						Count: 1
+						id: "terramity:iridium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E2B18DB0BB98015"
+					item: {
+						Count: 1
+						id: "terramity:iridium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "IRIDIUM TOOLS"
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			id: "65C2E76017E0CAE7"
+			tasks: [
+				{
+					id: "0C11E3A9D2C1601A"
+					item: {
+						Count: 1
+						id: "terramity:void_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "22647F87F051FEB8"
+					item: {
+						Count: 1
+						id: "terramity:void_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0F8955B70E32AB4B"
+					item: {
+						Count: 1
+						id: "terramity:void_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54A76E5C36140692"
+					item: {
+						Count: 1
+						id: "terramity:void_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "VOID TOOLS"
+			x: 13.0d
+			y: 5.5d
+		}
+		{
+			id: "42811959F00C32B5"
+			tasks: [
+				{
+					id: "5081B30B5B3BD51E"
+					item: {
+						Count: 1
+						id: "terramity:conductite_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3421568487C30944"
+					item: {
+						Count: 1
+						id: "terramity:conductite_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B827BA3D1D3BD85"
+					item: {
+						Count: 1
+						id: "terramity:conductite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "134172A96817F392"
+					item: {
+						Count: 1
+						id: "terramity:conductite_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "CONDUCTIVE TOOLS"
+			x: 14.5d
+			y: 5.5d
+		}
+		{
+			id: "452235D5D0AC38F6"
+			tasks: [
+				{
+					id: "526333BA5D2CA5CF"
+					item: {
+						Count: 1
+						id: "terramity:hellspec_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "015C7786F0432357"
+					item: {
+						Count: 1
+						id: "terramity:hellspec_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1098432EE142381A"
+					item: {
+						Count: 1
+						id: "terramity:hellspec_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15EB2E2D4A4B5694"
+					item: {
+						Count: 1
+						id: "terramity:hellspec_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "HELLSPEC TOOLS"
+			x: 16.0d
+			y: 5.5d
+		}
+		{
+			id: "68E5D415F72B8E30"
+			tasks: [
+				{
+					id: "01185AD51A1B8BD4"
+					item: {
+						Count: 1
+						id: "terramity:nyxium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7BCA73E801DFFE13"
+					item: {
+						Count: 1
+						id: "terramity:nyxium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B606AC93FF8BE19"
+					item: {
+						Count: 1
+						id: "terramity:nyxium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "229A21542A47A934"
+					item: {
+						Count: 1
+						id: "terramity:nyxium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "NYXIUM TOOLS"
+			x: 17.5d
+			y: 5.5d
+		}
+		{
+			id: "7C64449D000B4287"
+			tasks: [
+				{
+					id: "593A18D432414577"
+					item: {
+						Count: 1
+						id: "terramity:exodium_waraxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B1B1F13B500B0D9"
+					item: {
+						Count: 1
+						id: "terramity:exodium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B6A07DC49E1687C"
+					item: {
+						Count: 1
+						id: "terramity:exodium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62C4177500AAEC07"
+					item: {
+						Count: 1
+						id: "terramity:exodium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "EXODIUM TOOLS"
+			x: 19.0d
+			y: 5.5d
+		}
+		{
+			id: "56725C3623F4FC00"
+			tasks: [
+				{
+					id: "036D39822E2C9E18"
+					item: {
+						Count: 1
+						id: "terramity:reverium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "011521EA302993DE"
+					item: {
+						Count: 1
+						id: "terramity:reverium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43FDE857344C8D46"
+					item: {
+						Count: 1
+						id: "terramity:reverium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F6A3032DC6621D0"
+					item: {
+						Count: 1
+						id: "terramity:reverium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "REVERIUM TOOLS"
+			x: 20.5d
+			y: 5.5d
+		}
+		{
+			id: "4F12FB1649BC8079"
+			tasks: [{
+				id: "75B599E605F8A08C"
+				title: "SWORDS"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			id: "5498A09EF9D50759"
+			tasks: [{
+				id: "176B9D02A60C2D5C"
+				item: {
+					Count: 1
+					id: "terramity:ruby_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "RUBY SWORD"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			id: "39199DB0C0B3F52E"
+			tasks: [{
+				id: "164B3A8C01B8D40C"
+				item: {
+					Count: 1
+					id: "terramity:sapphire_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "SAPPHIRE SWORD"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			id: "3C0CB5AE30CF23DE"
+			tasks: [{
+				id: "3B39C3639EEA62FC"
+				item: {
+					Count: 1
+					id: "terramity:topaz_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "TOPAZ SWORD"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			id: "6EE76A6432581CA2"
+			tasks: [{
+				id: "19D654044B741D82"
+				item: {
+					Count: 1
+					id: "terramity:onyx_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "ONYX SWORD"
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			id: "7C04A72982433A98"
+			tasks: [{
+				id: "7F7C79C4489F13AB"
+				item: {
+					Count: 1
+					id: "terramity:dimlite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "DIMLITE SWORD"
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			id: "122162F568FB2E21"
+			tasks: [{
+				id: "4232D68A8BF7E13A"
+				item: {
+					Count: 1
+					id: "terramity:virentium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "VIRENTIUM SWORD"
+			x: 8.5d
+			y: 7.0d
+		}
+		{
+			id: "4A1281960BFADDF3"
+			tasks: [{
+				id: "4450D0206148D059"
+				item: {
+					Count: 1
+					id: "terramity:cosmilite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "COSMILITE SWORD"
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			id: "2261A5C67FD148E8"
+			tasks: [{
+				id: "6553EE3BE3452ABF"
+				item: {
+					Count: 1
+					id: "terramity:iridium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "IRIDIUM SWORD"
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			id: "057B5885C5A9F59D"
+			tasks: [{
+				id: "4AA5BD627E0CC9FF"
+				item: {
+					Count: 1
+					id: "terramity:void_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "VOID SWORD"
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			id: "4DDC128A0E8146CF"
+			tasks: [{
+				id: "4FE7D778061A0C25"
+				item: {
+					Count: 1
+					id: "terramity:conductite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "CONDUCTITE SWORD"
+			x: 14.5d
+			y: 7.0d
+		}
+		{
+			id: "3DFEEBEF5224F7B4"
+			tasks: [{
+				id: "63D5DFF76BA4168C"
+				item: {
+					Count: 1
+					id: "terramity:hellspec_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "HELLSPEC SWORD"
+			x: 16.0d
+			y: 7.0d
+		}
+		{
+			id: "5EE155BB025E27DF"
+			tasks: [{
+				id: "306F4F8991470394"
+				item: {
+					Count: 1
+					id: "terramity:nyxium_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "NYXIUM GREATSWORD"
+			x: 17.5d
+			y: 7.0d
+		}
+		{
+			id: "6F2426B54406BC74"
+			tasks: [{
+				id: "2181BA4E49B43DD5"
+				item: {
+					Count: 1
+					id: "terramity:exodium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "EXODIUM SWORD"
+			x: 19.0d
+			y: 7.0d
+		}
+		{
+			id: "5B9BC41B78912397"
+			tasks: [{
+				id: "610A5ADBAF93B136"
+				item: {
+					Count: 1
+					id: "terramity:reverium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "REVERIUM SWORD"
+			x: 20.5d
+			y: 7.0d
+		}
+		{
+			id: "2454481645E5942A"
+			tasks: [{
+				id: "557A26FF40812B1C"
+				title: "TOMES"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			id: "4C08C928B1E1FC62"
+			tasks: [{
+				id: "01DBFF2743AD3666"
+				item: {
+					Count: 1
+					id: "terramity:empty_spell_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "EMPTY SPELL TOME"
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			id: "696BA65225FE42C9"
+			tasks: [{
+				id: "404C702CDEEC6B6D"
+				item: {
+					Count: 1
+					id: "terramity:tome_of_commotion"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "TOME OF COMMOTION"
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			id: "0783F262447E90C8"
+			tasks: [{
+				id: "0CBAC25FE0EDE399"
+				item: {
+					Count: 1
+					id: "terramity:galebounce_tome"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "GALEBOUNCE"
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			id: "54108AFBB8D8A6A7"
+			tasks: [{
+				id: "7AEE1323AD52DF5B"
+				item: {
+					Count: 1
+					id: "terramity:tome_of_ascension"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "TOME OF ASCENSION"
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			id: "37AAC80315616900"
+			tasks: [{
+				id: "0CBC51572C5E3AAD"
+				item: {
+					Count: 1
+					id: "terramity:velocity_flip"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "VELOCITY FLIP"
+			x: 7.0d
+			y: 8.5d
+		}
+		{
+			id: "291D24B437CE74FB"
+			tasks: [{
+				id: "5651CB91222C2718"
+				item: {
+					Count: 1
+					id: "terramity:guardian_grimoire"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "GUARDIAN GRIMOIRE"
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			id: "1E3A8A0B3ED32848"
+			tasks: [{
+				id: "5CAF453D8D963179"
+				item: {
+					Count: 1
+					id: "terramity:dimensional_poof"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "DIMENSIONAL POOF"
+			x: 10.0d
+			y: 8.5d
+		}
+		{
+			id: "5D7701F0A00E7886"
+			tasks: [{
+				id: "63CEDCD7AB75ED81"
+				title: "SPECIAL"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			id: "1505A0888D63888F"
+			tasks: [
+				{
+					id: "03E8BE787A6E45EC"
+					item: {
+						Count: 1
+						id: "brutality:ruby_phasesaber"
+						tag: {
+							Damage: 0
+							show: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0565CE350B58F0FA"
+					item: {
+						Count: 1
+						id: "brutality:sapphire_phasesaber"
+						tag: {
+							Damage: 0
+							show: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68DD145CEDFF513F"
+					item: {
+						Count: 1
+						id: "brutality:topaz_phasesaber"
+						tag: {
+							Damage: 0
+							show: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "331808BC66A9769C"
+					item: {
+						Count: 1
+						id: "brutality:onyx_phasesaber"
+						tag: {
+							Damage: 0
+							show: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "PHASESABER"
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			id: "6732168DF84F63BB"
+			tasks: [{
+				id: "7E27BE569F71FE37"
+				item: {
+					Count: 1
+					id: "terramity:giant_dungeon_slab"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "GIANT DUNGEON SLAB"
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			id: "4877A943D28455E7"
+			tasks: [{
+				id: "43EDB0D59DFA00E5"
+				item: {
+					Count: 1
+					id: "terramity:hamstick_cudgel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "HAMSTICK CUDGEL"
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			id: "0FA803EAC3C5DBB2"
+			tasks: [{
+				id: "4CED4CD17EBFB6F2"
+				item: {
+					Count: 1
+					id: "terramity:duskrok_greatsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "DUSKROK GREATSWORD"
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			id: "7AF124CFEEC570B5"
+			tasks: [{
+				id: "7F29B0E0DB61E2E9"
+				item: {
+					Count: 1
+					id: "terramity:gobs_claymore"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "GOB'S CLAYMORE"
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			id: "04CBD2603899722C"
+			tasks: [{
+				id: "7EE549EE84492231"
+				item: {
+					Count: 1
+					id: "terramity:hellrok_gigaton_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "HELLROK GIGATON HAMMER"
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			id: "5EEBC24DE3285910"
+			tasks: [{
+				id: "40C354D3CEA530E9"
+				item: {
+					Count: 1
+					id: "terramity:excalibur"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "EXCALIBUR"
+			x: 10.0d
+			y: 10.0d
+		}
+		{
+			id: "3AACD45E39974263"
+			tasks: [{
+				id: "3CCF26B8F194AE7A"
+				item: {
+					Count: 1
+					id: "terramity:simmeredge"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "SIMMEREDGE"
+			x: 11.5d
+			y: 10.0d
+		}
+		{
+			id: "25781B17209698F4"
+			tasks: [{
+				id: "4435AF33AAF026AC"
+				item: {
+					Count: 1
+					id: "terramity:icebrand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "ICEBRAND"
+			x: 13.0d
+			y: 10.0d
+		}
+		{
+			id: "1E0790395F1E2AF7"
+			tasks: [{
+				id: "6F715B4DA0F36889"
+				item: {
+					Count: 1
+					id: "terramity:stratus_storm_ruler"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "STRATUS STORM RULER"
+			x: 14.5d
+			y: 10.0d
+		}
+		{
+			id: "0CB6B72668167CEB"
+			tasks: [{
+				id: "448AF61641D4B17A"
+				item: {
+					Count: 1
+					id: "terramity:orders_end"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "ORDER'S END"
+			x: 16.0d
+			y: 10.0d
+		}
+		{
+			id: "5C3262329C0DB176"
+			tasks: [{
+				id: "0B873283571C6DED"
+				item: {
+					Count: 1
+					id: "terramity:guiding_moonlight"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "GUIDING MOONLIGHT"
+			x: 17.5d
+			y: 10.0d
+		}
+		{
+			id: "07713A6761EDA099"
+			tasks: [{
+				id: "15E4C8D8B2A6522D"
+				item: {
+					Count: 1
+					id: "terramity:crescent_moonblade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "CRESCENT MOONBLADE"
+			x: 19.0d
+			y: 10.0d
+		}
+		{
+			id: "15D3CC1355888DCD"
+			tasks: [{
+				id: "3696BED94E0BDC51"
+				item: {
+					Count: 1
+					id: "terramity:yoru"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "YORU"
+			x: 20.5d
+			y: 10.0d
+		}
+		{
+			id: "3F0E3996061ABAD2"
+			tasks: [{
+				id: "019453A3E6995A5E"
+				item: {
+					Count: 1
+					id: "terramity:murasama"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "MURASAMA"
+			x: 22.0d
+			y: 10.0d
+		}
+		{
+			id: "3FD930DDC7C06295"
+			tasks: [{
+				id: "6C83CB1AEB8356B3"
+				item: {
+					Count: 1
+					id: "terramity:sword_of_the_imprisoned"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "SWORD OF THE IMPRISONED"
+			x: 23.5d
+			y: 10.0d
+		}
+		{
+			id: "303207362C9BBB92"
+			tasks: [{
+				id: "653D512620D96466"
+				item: {
+					Count: 1
+					id: "terramity:axe_of_unholy_divinity"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "AXE OF UNHOLY DIVINITY"
+			x: 25.0d
+			y: 10.0d
+		}
+		{
+			id: "5EDFBAD5DF94F737"
+			tasks: [{
+				id: "0F1EF724464975BF"
+				item: {
+					Count: 1
+					id: "terramity:devastation"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "DEVASTATION"
+			x: 26.5d
+			y: 10.0d
+		}
+		{
+			id: "1C70EB84AF1077B7"
+			tasks: [{
+				id: "65822D07474E3865"
+				item: {
+					Count: 1
+					id: "terramity:unholy_lance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "UNHOLY LANCE"
+			x: 28.0d
+			y: 10.0d
+		}
+		{
+			id: "6D8E3985AD720F1D"
+			tasks: [{
+				id: "03A82B8844553A40"
+				title: "STAFFS/SCEPTERS"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			id: "4126D14ECE53645D"
+			tasks: [{
+				id: "26238F0F61A7151E"
+				item: {
+					Count: 1
+					id: "terramity:fireball_sceptre"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "FIREBALL SCEPTRE"
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			id: "5D6E15DF163E9544"
+			tasks: [{
+				id: "55E2037575D9A60F"
+				item: {
+					Count: 1
+					id: "terramity:lightning_sceptre"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "LIGHTNING SCEPTRE"
+			x: 2.5d
+			y: 11.5d
+		}
+		{
+			id: "27A1648AC1F1608F"
+			tasks: [{
+				id: "2DE4549FAA362A29"
+				item: {
+					Count: 1
+					id: "terramity:lightning_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "LIGHTNING STAFF"
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			id: "0808654B7B458543"
+			tasks: [{
+				id: "77316FEB047C4457"
+				item: {
+					Count: 1
+					id: "terramity:enderswap_sceptre"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "ENDERSWAP SCEPTRE"
+			x: 5.5d
+			y: 11.5d
+		}
+		{
+			id: "32E0BD09317AD305"
+			tasks: [{
+				id: "5E6734D1E9EEEBEC"
+				item: {
+					Count: 1
+					id: "terramity:perish_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "PERISH STAFF"
+			x: 7.0d
+			y: 11.5d
+		}
+		{
+			id: "7CAECD40BC49E52F"
+			tasks: [{
+				id: "3603CF9CECD0EFBD"
+				title: "GUNS"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			id: "72D0E4C5F9BF6967"
+			tasks: [{
+				id: "18B341104AF0E6B2"
+				item: {
+					Count: 1
+					id: "terramity:handcannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "HANDCANNON"
+			x: 1.0d
+			y: 13.0d
+		}
+		{
+			id: "482D2A62907852AD"
+			tasks: [{
+				id: "6C064ED561D766AE"
+				item: {
+					Count: 1
+					id: "terramity:flintlock_pistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "FLINTLOCK PISTOL"
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			id: "3F3B7580D6BBEA67"
+			tasks: [{
+				id: "254AFD1F02EF968E"
+				item: {
+					Count: 1
+					id: "terramity:basic_pistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "BASIC PISTOL"
+			x: 4.0d
+			y: 13.0d
+		}
+		{
+			id: "7B61F74B6E392D77"
+			tasks: [{
+				id: "5EB141744653CD6E"
+				item: {
+					Count: 1
+					id: "terramity:advanced_pistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "ADVANCED PISTOL"
+			x: 5.5d
+			y: 13.0d
+		}
+		{
+			id: "6DF4F69A4BC5A38D"
+			tasks: [{
+				id: "4092F37F90751D5F"
+				item: {
+					Count: 1
+					id: "terramity:suppressed_advanced_pistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "SUPPRESSED ADVANCED PISTOL"
+			x: 7.0d
+			y: 13.0d
+		}
+		{
+			id: "1A7419AF577D5FFC"
+			tasks: [{
+				id: "05C0F011F6E7D5B4"
+				item: {
+					Count: 1
+					id: "terramity:plague_pistol"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "PLAGUE PISTOL"
+			x: 8.5d
+			y: 13.0d
+		}
+		{
+			id: "12876D97B2FCEFB5"
+			tasks: [{
+				id: "1E79EDEFD714F294"
+				item: {
+					Count: 1
+					id: "terramity:requiem"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "REQUIEM"
+			x: 10.0d
+			y: 13.0d
+		}
+		{
+			id: "3AD21F7041AEB228"
+			tasks: [{
+				id: "17AA1E42A9B76AED"
+				item: {
+					Count: 1
+					id: "terramity:vulcan"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "VULCAN"
+			x: 11.5d
+			y: 13.0d
+		}
+		{
+			id: "7A91815AB2E5F272"
+			tasks: [{
+				id: "0AFA591882D2CBDF"
+				item: {
+					Count: 1
+					id: "terramity:big_iron"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "BIG IRON"
+			x: 13.0d
+			y: 13.0d
+		}
+		{
+			id: "69CE549A97C3CD15"
+			tasks: [{
+				id: "41B5249C08A36520"
+				item: {
+					Count: 1
+					id: "terramity:six_shooter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "SIX SHOOTER"
+			x: 14.5d
+			y: 13.0d
+		}
+		{
+			id: "2278E2EFFB71B9E4"
+			tasks: [{
+				id: "15235F1ADEA6908A"
+				item: {
+					Count: 1
+					id: "terramity:celestial_sixty"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "CELESTIAL 60"
+			x: 16.0d
+			y: 13.0d
+		}
+		{
+			id: "0D991BDF9B728F50"
+			tasks: [{
+				id: "0E9865193DA216FC"
+				item: {
+					Count: 1
+					id: "terramity:five_thousand_magnum"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "5000 MAGNUM"
+			x: 17.5d
+			y: 13.0d
+		}
+		{
+			id: "076B3435C3CC9CCA"
+			tasks: [{
+				id: "72C714035F112DE2"
+				item: {
+					Count: 1
+					id: "terramity:basic_rifle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "BASIC RIFLE"
+			x: 19.0d
+			y: 13.0d
+		}
+		{
+			id: "669F4252F82A803B"
+			tasks: [{
+				id: "04D26F5ACE55E469"
+				item: {
+					Count: 1
+					id: "terramity:advanced_burst_rifle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "ADVANCED BURST RIFLE"
+			x: 20.5d
+			y: 13.0d
+		}
+		{
+			id: "29FE6DEA0F037608"
+			tasks: [{
+				id: "6C684C37D1ED39B8"
+				item: {
+					Count: 1
+					id: "terramity:advanced_automatic_rifle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "ADVANCED AUTOMATIC RIFLE"
+			x: 22.0d
+			y: 13.0d
+		}
+		{
+			id: "22576DB3A03A8BE5"
+			tasks: [{
+				id: "7B022C03487FFB6A"
+				item: {
+					Count: 1
+					id: "terramity:gaias_tempest"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "GAIA'S TEMPEST"
+			x: 23.5d
+			y: 13.0d
+		}
+		{
+			id: "56DB58D7246D126D"
+			tasks: [{
+				id: "0EA2ECC881F1BBBE"
+				item: {
+					Count: 1
+					id: "terramity:nihility"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "NIHILITY"
+			x: 25.0d
+			y: 13.0d
+		}
+		{
+			id: "05BF7D06F69F264A"
+			tasks: [{
+				id: "1A59C81434131F81"
+				item: {
+					Count: 1
+					id: "terramity:titanomachy"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "TITANOMACHY"
+			x: 26.5d
+			y: 13.0d
+		}
+		{
+			id: "1D0C33992CB902D8"
+			tasks: [{
+				id: "320BC49D62F2A02C"
+				item: {
+					Count: 1
+					id: "terramity:stairway_to_heaven"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "STAIRWAY TO HEAVEN"
+			x: 28.0d
+			y: 13.0d
+		}
+		{
+			id: "05219325243B87B6"
+			tasks: [{
+				id: "248C474BC613E48B"
+				item: {
+					Count: 1
+					id: "terramity:elite_rifle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "ELITE RIFLE"
+			x: 29.5d
+			y: 13.0d
+		}
+		{
+			id: "1B6C9BDC757DAD0F"
+			tasks: [{
+				id: "4EB11FCC9DF752F8"
+				item: {
+					Count: 1
+					id: "terramity:anti_material_rifle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "ANTI-MATERIAL RIFLE"
+			x: 31.0d
+			y: 13.0d
+		}
+		{
+			id: "61968D299BF85D60"
+			tasks: [{
+				id: "041FCE6B88C71A85"
+				item: {
+					Count: 1
+					id: "terramity:antimatter_rifle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "ANTIMATTER RIFLE"
+			x: 32.5d
+			y: 13.0d
+		}
+		{
+			id: "2F55370734421E68"
+			tasks: [{
+				id: "01E0A49E5972F150"
+				item: {
+					Count: 1
+					id: "terramity:davy_jones"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "DAVY JONES"
+			x: 34.0d
+			y: 13.0d
+		}
+		{
+			id: "206FE3FD35E42EDF"
+			tasks: [{
+				id: "56519F391B3957EB"
+				item: {
+					Count: 1
+					id: "terramity:divine_intervention"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "DIVINE INTERVENTION"
+			x: 35.5d
+			y: 13.0d
+		}
+		{
+			id: "6845F05B48E566DE"
+			tasks: [{
+				id: "4AD8AF4A52EB4895"
+				item: {
+					Count: 1
+					id: "terramity:fortunes_favor"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "FORTUNE'S FAVOR"
+			x: 37.0d
+			y: 13.0d
+		}
+		{
+			id: "30B2F96A591484DA"
+			tasks: [{
+				id: "5A0C59CAAAA31650"
+				item: {
+					Count: 1
+					id: "terramity:blasphemic_rapture"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "BLASPHEMIC RAPTURE"
+			x: 38.5d
+			y: 13.0d
+		}
+		{
+			id: "7FFEB1732AE74E0B"
+			tasks: [{
+				id: "295468A36848E732"
+				item: {
+					Count: 1
+					id: "terramity:blunderbuss"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "BLUNDERBUSS"
+			x: 40.0d
+			y: 13.0d
+		}
+		{
+			id: "5BD02F5D35EA886E"
+			tasks: [{
+				id: "61C37684A7A7F450"
+				item: {
+					Count: 1
+					id: "terramity:sawed_off_shotgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "SAWED OFF SHOTGUN"
+			x: 41.5d
+			y: 13.0d
+		}
+		{
+			id: "21ABE3AE931FFA26"
+			tasks: [{
+				id: "3DAB90A94F6DCB87"
+				item: {
+					Count: 1
+					id: "terramity:onyx_storm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "ONYX STORM"
+			x: 43.0d
+			y: 13.0d
+		}
+		{
+			id: "528656BAA94C8D55"
+			tasks: [{
+				id: "47A816A91619BF85"
+				item: {
+					Count: 1
+					id: "terramity:pump_action_shotgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "PUMP ACTION SHOTGUN"
+			x: 44.5d
+			y: 13.0d
+		}
+		{
+			id: "723465F83DF8F53D"
+			tasks: [{
+				id: "0E546325E0334AD2"
+				item: {
+					Count: 1
+					id: "terramity:plaguebringer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "PLAGUEBRINGER"
+			x: 46.0d
+			y: 13.0d
+		}
+		{
+			id: "1F5C3B2A4E68E90C"
+			tasks: [{
+				id: "72FD3026F98093BE"
+				item: {
+					Count: 1
+					id: "terramity:cosmic_storm"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "COSMIC STORM"
+			x: 47.5d
+			y: 13.0d
+		}
+		{
+			id: "6B3E9042430FAAD8"
+			tasks: [{
+				id: "0EE5E61D181039F6"
+				item: {
+					Count: 1
+					id: "terramity:hellfire_flurry"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "HELLFIRE FLURRY"
+			x: 49.0d
+			y: 13.0d
+		}
+		{
+			id: "4345584C773AC8AE"
+			tasks: [{
+				id: "780513F8EF326362"
+				item: {
+					Count: 1
+					id: "terramity:asphodel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "ASPHODEL"
+			x: 50.5d
+			y: 13.0d
+		}
+		{
+			id: "6759928B147F5AEB"
+			tasks: [{
+				id: "2B0682ED2E842639"
+				item: {
+					Count: 1
+					id: "terramity:olympus"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "OLYMPUS"
+			x: 52.0d
+			y: 13.0d
+		}
+		{
+			id: "5ADF541F0E73AC36"
+			tasks: [{
+				id: "2C8CDF5813129B7B"
+				item: {
+					Count: 1
+					id: "terramity:flare_gun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "FLARE GUN"
+			x: 53.5d
+			y: 13.0d
+		}
+		{
+			id: "389BED8C1CE64BC2"
+			tasks: [{
+				id: "28871CB711BA51DC"
+				item: {
+					Count: 1
+					id: "terramity:meteor_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "METEOR CANNON"
+			x: 55.0d
+			y: 13.0d
+		}
+		{
+			id: "781420717F2A45FE"
+			tasks: [{
+				id: "3895F855A06C9620"
+				item: {
+					Count: 1
+					id: "terramity:rocket_launcher"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "ROCKET LAUNCHER"
+			x: 56.5d
+			y: 13.0d
+		}
+		{
+			id: "0CC0443A8B51A513"
+			tasks: [{
+				id: "0EAD18C4C701AC88"
+				item: {
+					Count: 1
+					id: "terramity:overclocked_microwave"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "OVERCLOCKED MICROWAVE"
+			x: 58.0d
+			y: 13.0d
+		}
+		{
+			id: "70B09EA4BE195E76"
+			tasks: [{
+				id: "067FD792EC954C0B"
+				item: {
+					Count: 1
+					id: "terramity:railgun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "RAILGUN"
+			x: 59.5d
+			y: 13.0d
+		}
+		{
+			id: "5A3660E7204CBEE8"
+			tasks: [{
+				id: "14BC1623EB95843A"
+				item: {
+					Count: 1
+					id: "terramity:planet_buster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "PLANET BUSTER"
+			x: 61.0d
+			y: 13.0d
+		}
+		{
+			id: "63650C3437DEE5AD"
+			tasks: [{
+				id: "01FDACD4BF29EC90"
+				item: {
+					Count: 1
+					id: "terramity:conductite_laser_rifle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "CONDUCTITE LASER RIFLE"
+			x: 62.5d
+			y: 13.0d
+		}
+		{
+			id: "7E4D54984885BD8F"
+			tasks: [{
+				id: "2576A889855CB191"
+				title: "THROWABLES"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 14.5d
+		}
+		{
+			id: "0A7B6067FF10A548"
+			tasks: [{
+				id: "364CC370E92AEECC"
+				item: {
+					Count: 1
+					id: "terramity:throwing_bomb"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "THROWING BOMB"
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			id: "5CD1A384B7694F60"
+			tasks: [{
+				id: "3CF278647D927925"
+				item: {
+					Count: 1
+					id: "terramity:bomb_flower_item"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "BOMB FLOWER"
+			x: 2.5d
+			y: 14.5d
+		}
+		{
+			id: "65D74C2CDBA5A14D"
+			tasks: [{
+				id: "7A3250614457D8B2"
+				item: {
+					Count: 1
+					id: "terramity:guided_energy_blast"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "GUIDED ENERGY BLAST"
+			x: 4.0d
+			y: 14.5d
+		}
+		{
+			id: "2B87E28ACC16FC1E"
+			tasks: [{
+				id: "28CAA75B1CA219F8"
+				item: {
+					Count: 1
+					id: "terramity:kamehameha"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "KAMEHAMEHA"
+			x: 5.5d
+			y: 14.5d
+		}
+		{
+			id: "1CB6841A7B21EB42"
+			tasks: [{
+				id: "3F976DBA5C2B2E06"
+				title: "AMMO"
+				type: "checkmark"
+			}]
+			title: "SHELLS"
+			x: -0.5d
+			y: 16.0d
+		}
+		{
+			id: "37B2E051020E7C76"
+			tasks: [{
+				id: "5C03207DA98BA570"
+				item: {
+					Count: 1
+					id: "terramity:copper_round"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "COPPER ROUND"
+			x: 1.0d
+			y: 16.0d
+		}
+		{
+			id: "58EB945536E21C40"
+			tasks: [{
+				id: "3960A96708AD9C4D"
+				item: {
+					Count: 1
+					id: "terramity:gold_round"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "GOLD ROUND"
+			x: 2.5d
+			y: 16.0d
+		}
+		{
+			id: "3AB0D02CC7C606EF"
+			tasks: [{
+				id: "13DA443FAFA06E1E"
+				item: {
+					Count: 1
+					id: "terramity:iridium_round"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "IRIDIUM ROUND"
+			x: 4.0d
+			y: 16.0d
+		}
+		{
+			id: "17F38DC028D188F4"
+			tasks: [{
+				id: "751E4CF0BA6340A3"
+				item: {
+					Count: 1
+					id: "terramity:dimlite_round"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "ECHO ROUND"
+			x: 5.5d
+			y: 16.0d
+		}
+		{
+			id: "7F8BD1CAA851F2B5"
+			tasks: [{
+				id: "4E77934B8882491C"
+				item: {
+					Count: 1
+					id: "terramity:antimatter_round"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "ANTIMATTER ROUND"
+			x: 7.0d
+			y: 16.0d
+		}
+		{
+			id: "42D25AE1C1B4EAE0"
+			tasks: [{
+				id: "2CB93F6B71D1CBDB"
+				item: {
+					Count: 1
+					id: "terramity:daemonium_shotshells"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "DAEMONIUM SHOTSHELL"
+			x: 8.5d
+			y: 16.0d
+		}
+		{
+			id: "5D626BEECB16077D"
+			tasks: [{
+				id: "769D9F3BBE1E1BAC"
+				item: {
+					Count: 1
+					id: "terramity:hellspec_shotshells"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "HELLSPEC SHOTSHELL"
+			x: 10.0d
+			y: 16.0d
+		}
+		{
+			id: "56F3CB13CC9512E5"
+			tasks: [{
+				id: "18AC610879A42AB2"
+				item: {
+					Count: 1
+					id: "terramity:virentium_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "VIRENTIUM ROCKET"
+			x: 11.5d
+			y: 16.0d
+		}
+		{
+			id: "4BC6CF7703086F16"
+			tasks: [{
+				id: "4047030E9FD272B2"
+				title: "BOSSES"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 17.5d
+		}
+		{
+			id: "3FD44EC7F2012133"
+			tasks: [{
+				entity: "terramity:gob"
+				icon: {
+					Count: 1
+					id: "terramity:golden_gnome_statue"
+					tag: { }
+				}
+				id: "310F40846455B95E"
+				title: "GOB, KING OF GNOMES"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 17.5d
+		}
+		{
+			id: "1937A41E5FE96533"
+			tasks: [{
+				entity: "terramity:super_sniffer"
+				icon: {
+					Count: 1
+					id: "terramity:super_sniffers_pelt"
+					tag: { }
+				}
+				id: "715B62D8D1D343D3"
+				title: "SUPER SNIFFER"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 17.5d
+		}
+		{
+			id: "0B94C88FC269504B"
+			tasks: [{
+				entity: "summonity:summoned_ultra_sniffer"
+				icon: {
+					Count: 1
+					id: "terramity:ultra_sniffers_pelt"
+					tag: { }
+				}
+				id: "175B2CBAEE723711"
+				title: "ULTRA SNIFFER"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 17.5d
+		}
+		{
+			id: "5BD1D992E7EBAE1D"
+			tasks: [{
+				entity: "terramity:trial_guardian"
+				icon: {
+					Count: 1
+					id: "brutality:trial_guardian_hands"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "46B0670FD2C30248"
+				title: "TRIAL GUARDIAN"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 17.5d
+		}
+		{
+			id: "14152916FF14049D"
+			tasks: [
+				{
+					entity: "terramity:enchanter_merlin"
+					icon: {
+						Count: 1
+						id: "minecraft:enchanting_table"
+						tag: { }
+					}
+					id: "76C753F1C96327A1"
+					title: "MERLIN"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "terramity:sorceress_circe"
+					icon: {
+						Count: 1
+						id: "terramity:hexing_circle"
+						tag: { }
+					}
+					id: "086EB35F41996AC7"
+					title: "CIRCE"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "THE SHADOW WIZARDS"
+			x: 7.0d
+			y: 17.5d
+		}
+		{
+			id: "3982220B4B7FDE40"
+			tasks: [{
+				id: "2BD67F9C68B3B958"
+				title: "EXTRA"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 19.0d
+		}
+		{
+			id: "1983586BC09083F0"
+			tasks: [{
+				id: "16673BDD0BBB37C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 4
+						}
+					}
+					id: "terramity:ocarina_of_power"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "OCARINA OF POWER"
+			x: 1.0d
+			y: 19.0d
+		}
+		{
+			id: "7A166B2330D4AC82"
+			tasks: [{
+				id: "2470B6A8E191DD05"
+				item: {
+					Count: 1
+					id: "terramity:warp_whistle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "WARP WHISTLE"
+			x: 2.5d
+			y: 19.0d
+		}
+	]
+	title: "BASE MOD"
+}

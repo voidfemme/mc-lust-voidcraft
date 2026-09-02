@@ -1,0 +1,13 @@
+name = "Mortality - A Terramity Addon"
+filename = "mortality-0.0.45.6.11-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SrcYSIHB/versions/AsyHEMv1/mortality-0.0.45.6.11-forge-1.20.1.jar"
+hash-format = "sha512"
+hash = "20a301e0399f05562e02b778bada9eccc32de7e57142b99d48c7c90f87b63bf8505c7c13101f96b56a4b429f4d6bb822ad72cbb3acb01dba3c1b368e3b975a67"
+
+[update]
+[update.modrinth]
+mod-id = "SrcYSIHB"
+version = "AsyHEMv1"

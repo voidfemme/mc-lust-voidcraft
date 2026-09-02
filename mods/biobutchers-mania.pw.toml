@@ -1,0 +1,13 @@
+name = "BioButcher's Mania"
+filename = "biobutchers-mania-2.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "39659b4062270378d4aecbcdf7c2e8d9c7d1296e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6420979
+project-id = 1093935

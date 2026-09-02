@@ -1,0 +1,13 @@
+name = "Ender Sins"
+filename = "ender_sins-1.0.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e0316e77eeb4fbf32a5ac19d303f5482e2714371"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5850071
+project-id = 641643

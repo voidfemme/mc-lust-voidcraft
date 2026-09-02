@@ -1,0 +1,16 @@
+name = "Lust Voidcraft"
+author = "aria, voidfemme"
+version = "2.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "9e37770e4c8931d6c2bd16c265ed86e969af89fc41de954f087913ab7476ddaf"
+
+[versions]
+forge = "47.4.10"
+minecraft = "1.20.1"
+
+[options]
+no-internal-hashes = true

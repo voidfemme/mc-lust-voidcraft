@@ -1,0 +1,13 @@
+name = "LuyuBaubles"
+filename = "luyubaubles-0.1.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5847a4eaead0f6df972cca4c86c716eda8f234b4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7713139
+project-id = 1429429

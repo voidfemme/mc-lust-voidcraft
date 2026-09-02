@@ -1,0 +1,30 @@
+
+#悖论引擎 - 3D模型环绕渲染参数（客户端）
+[paradox_engine_render]
+	#模型缩放比例
+	#Range: 0.1 ~ 3.0
+	scale = 0.675
+	#上下浮动振幅（格）
+	#Range: 0.0 ~ 1.0
+	float_amplitude = 0.08
+	#一个完整浮动周期所需的 tick 数
+	#Range: 20.0 ~ 600.0
+	float_cycle_ticks = 100.0
+	#环绕半径（格）
+	#Range: 0.1 ~ 5.0
+	orbit_radius = 1.0
+	#模型垂直偏移（格，相对于玩家脚底）
+	#Range: -2.0 ~ 5.0
+	vertical_offset = 1.0
+	#位置拖拽强度（0 = 无拖拽，1 = 瞬间跟随）
+	#Range: 0.01 ~ 1.0
+	drag_strength = 0.3
+	#旋转平滑度（0 = 无平滑，1 = 无延迟跟随）
+	#Range: 0.01 ~ 1.0
+	rotation_smoothness = 0.3
+	#模型自旋速度（弧度/tick）
+	#Range: 0.0 ~ 10.0
+	self_spin_speed = 1.5
+	#是否使用弹簧物理进行偏航角平滑（关闭则使用旋转拖拽）
+	use_spring = false
+

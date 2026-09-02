@@ -1,0 +1,13 @@
+name = "Ad Extendra"
+filename = "ad_extendra-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f0a8394fccb56a86b7a6bfb6ad3a358aa8a766dc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5048391
+project-id = 964812

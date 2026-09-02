@@ -1,0 +1,13 @@
+name = "Snowy Crescent Core"
+filename = "sccore-1.20.1-1.0.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a4fe2cf9fba005d3ab2f3a1a96dc5cf8b19e8c25"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8192736
+project-id = 1371888

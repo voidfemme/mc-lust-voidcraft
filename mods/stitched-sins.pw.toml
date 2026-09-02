@@ -1,0 +1,13 @@
+name = "Stitched Sins"
+filename = "stitched_sins-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9176982307290e221fb1003e60030921abd24275"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5293282
+project-id = 934643

@@ -1,0 +1,13 @@
+name = "PixelCat's Random Curios Baubles"
+filename = "pixelcats_random_curios_baubles-1.0.4-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "77151a4c97f7a4fe8743c9a6ffc67b1c12a31588"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6240887
+project-id = 1152801

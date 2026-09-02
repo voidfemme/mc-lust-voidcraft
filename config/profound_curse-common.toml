@@ -1,0 +1,203 @@
+
+#负咒者加护 - 数值加成与怠惰诅咒
+[cursed_amulet]
+	#攻击伤害加成倍率（基础公式: 倍率 * (击杀比率 + 1)）
+	#Range: 0.0 ~ 100.0
+	attack_bonus_multiplier = 1.5
+	#冲刺速度加成上限（比率值，1.5 = +150%）
+	#Range: 0.0 ~ 100.0
+	speed_cap = 1.5
+	#重力削减上限（比率值，0.9 = -90%重力）
+	#Range: 0.0 ~ 1.0
+	gravity_cap = 0.9
+	#挖掘/攻击速度加成上限（比率值，9.99 = +999%）
+	#Range: 0.0 ~ 100.0
+	mining_cap = 9.99
+	#生命窃取上限（比率值，0.99 = 99%）
+	#Range: 0.0 ~ 1.0
+	lifesteal_cap = 0.99
+	#游泳速度加成上限（比率值，2.0 = +200%）
+	#Range: 0.0 ~ 100.0
+	swim_cap = 2.0
+	#弹射物偏移几率上限（比率值，0.99 = 99%）
+	#Range: 0.0 ~ 1.0
+	deflect_cap = 0.99
+	#每次击杀获得的比率（0.001 = 每次击杀0.1%）
+	#Range: 0.0 ~ 1.0
+	kill_ratio = 0.001
+	#怠惰诅咒最大惩罚层数
+	#Range: 1 ~ 100
+	max_penalty = 10
+	#新惩罚层添加的起始间隔（秒）
+	#Range: 1 ~ 3600
+	penalty_interval_start = 20
+	#惩罚层之间的最小间隔（秒）
+	#Range: 1 ~ 3600
+	penalty_interval_min = 2
+	#移除一层惩罚所需的击杀数
+	#Range: 1 ~ 10000
+	penalty_decrease_kills = 10
+
+#世界统御枢纽 - 技能冷却与可切换游戏模式
+[world_dominion_hub]
+	#切换游戏模式技能的冷却时间（tick，20 tick = 1秒）
+	#Range: 0 ~ 72000
+	cooldown_ticks = 100
+	#允许切换到创造模式
+	allow_creative = true
+	#允许切换到生存模式
+	allow_survival = true
+	#允许切换到旁观者模式。开启两个以上模式时按顺序循环切换
+	allow_spectator = false
+	#允许切换到冒险模式。开启两个以上模式时按顺序循环切换
+	allow_adventure = false
+
+#悖论引擎 - 与七咒之戒配合时的诅咒效果
+[paradox_engine]
+	#是否要求佩戴悖论引擎才能装备其他术石。开启后，所有术石需要先佩戴悖论引擎才能放入术石槽位
+	require_for_spellstone = true
+
+	#受伤倍率（七咒之戒 +100% 基础上叠加）
+	[paradox_engine.damage_taken]
+		#是否启用受伤增加效果。关闭后悖论引擎不再增加受到的伤害
+		enable = true
+		#受到的伤害倍率（1.0 = +100%，与七咒之戒的 +100% 叠加后总计 +200%；设为 0 则不增加）
+		#Range: 0.0 ~ 100.0
+		multiplier = 1.0
+
+	#伤害输出降低
+	[paradox_engine.damage_dealt]
+		#是否启用伤害降低效果
+		enable = true
+		#造成的伤害倍率（0.7 = 降低至原伤害的 70%，即 -30%）
+		#Range: 0.0 ~ 1.0
+		multiplier = 0.7
+
+	#火焰禁止回血
+	[paradox_engine.fire_no_heal]
+		#是否启用着火时禁止所有回血
+		enable = true
+
+	#床爆炸
+	[paradox_engine.bed_explosion]
+		#是否启用右键床时引发爆炸
+		enable = true
+		#爆炸威力（原版 TNT = 4.0）
+		#Range: 0.0 ~ 100.0
+		explosion_power = 4.0
+		#对玩家造成的直接伤害（半颗心 = 1.0，默认 80.0 = 40颗心，即死）
+		#Range: 0.0 ~ 10000.0
+		direct_damage = 80.0
+
+	#盔甲攻速惩罚
+	[paradox_engine.armor_speed_penalty]
+		#是否启用穿戴盔甲降低攻击速度的效果
+		enable = true
+		#每件盔甲降低的攻击速度比例（0.15 = -15%/件，满盔甲 -60%）
+		#Range: 0.0 ~ 1.0
+		penalty_per_piece = 0.15
+
+	#中立生物强化
+	[paradox_engine.neutral_strengthen]
+		#是否启用中立生物随时间的诅咒强化效果
+		enable = true
+		#中立生物强化触发的间隔（秒）
+		#Range: 1 ~ 3600
+		interval_seconds = 20
+		#中立生物诅咒强化效果的最高等级（0级 = I级效果）
+		#Range: 0 ~ 99
+		max_amplifier = 9
+		#中立生物强化的作用半径（格）
+		#Range: 1.0 ~ 512.0
+		radius = 64.0
+
+	#末影人强化
+	[paradox_engine.enderman_strengthen]
+		#是否启用末影人的诅咒强化效果
+		enable = true
+		#末影人诅咒强化的等级（4 = 诅咒强化 V）
+		#Range: 0 ~ 99
+		amplifier = 4
+		#末影人强化的作用半径（格）
+		#Range: 1.0 ~ 512.0
+		radius = 64.0
+
+	#监守者掉落诅咒碎块
+	[paradox_engine.warden_drop]
+		#是否启用监守者掉落诅咒碎块
+		enable = true
+		#诅咒碎块掉落几率（0.10 = 10%）
+		#Range: 0.0 ~ 1.0
+		drop_chance = 0.1
+
+	#其他
+	[paradox_engine.misc]
+		#是否显示"灵魂破裂的代价更加严重"提示文本。纯文本开关，该效果暂未实装
+		show_death_tooltip = true
+
+#星光采掘者 - 镐子属性
+[astral_miner]
+	#默认时运等级加成
+	#Range: 0 ~ 10
+	fortune_bonus = 2
+
+#星光割裂者 - 剑气弹射物属性
+[astral_ripper]
+	#发射剑气后的冷却时间（tick，20 tick = 1秒）
+	#Range: 0 ~ 100
+	cooldown_ticks = 10
+	#剑气弹射物的存活时间（tick）
+	#Range: 20 ~ 600
+	projectile_lifetime = 100
+	#橙色剑气（火焰）的伤害倍率
+	#Range: 0.0 ~ 100.0
+	fire_multiplier = 1.5
+	#粉色剑气（魔法）的伤害倍率
+	#Range: 0.0 ~ 100.0
+	magic_multiplier = 0.8
+	#粉色剑气每层易伤增加的受伤比例（0.2 = 20%）
+	#Range: 0.0 ~ 10.0
+	vuln_per_stack = 0.2
+	#紫色剑气（生命窃取）的伤害倍率
+	#Range: 0.0 ~ 100.0
+	lifesteal_multiplier = 0.9
+	#紫色剑气的生命窃取比例，基于造成的伤害（0.1 = 10%）
+	#Range: 0.0 ~ 1.0
+	lifesteal_percent = 0.1
+	#蓝色剑气（冰冻）的伤害倍率
+	#Range: 0.0 ~ 100.0
+	freeze_multiplier = 1.0
+
+#结构生成
+[structure]
+	#是否在地狱生成预设结构。关闭后新世界中不再生成
+	enable = true
+
+#渊底遗言 - 武器属性
+[cursed_book]
+	#基础攻击伤害（无视所有减伤）
+	#Range: 0.0 ~ 10000.0
+	damage = 9.0
+	#攻击速度（原版默认值为4.0）
+	#Range: 0.1 ~ 100.0
+	attack_speed = 1.9
+	#禁止目标回血的持续时间（tick，20 tick = 1秒）
+	#Range: 0 ~ 72000
+	anti_heal_ticks = 200
+	#渊底遗言放入古旧书袋时，对 BOSS 和玩家造成的额外伤害加成（0.15 = +15%）
+	#Range: 0.0 ~ 100.0
+	boss_bonus = 0.15
+
+#救赎之果 - 被动回血间隔
+[true_notch_apple]
+	#被动回血的触发间隔（tick，20 tick = 1秒）。默认 20 tick（每秒回血一次）
+	#Range: 1 ~ 200
+	regen_interval = 20
+
+#沉眠护符 - 负面效果黑名单
+[slumber_charm]
+	#负面效果黑名单（效果注册名列表）。沉眠护符攻击时不会施加这些效果。
+	#示例：["minecraft:instant_damage", "minecraft:wither"]
+	#默认空列表，所有有害效果都可能被施加。
+	debuff_blacklist = []
+

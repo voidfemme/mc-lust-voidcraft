@@ -1,0 +1,33 @@
+
+[savior_ming]
+	#每次救治带来的攻击力加成（线性叠加）
+	#Range: 0.0 ~ 1000.0
+	damage_per_cure = 5.0
+	#每次救治带来的护甲加成（线性叠加）
+	#Range: 0.0 ~ 1000.0
+	armor_per_cure = 2.0
+	#救治奖励：设置饥饿值（0-20）
+	#Range: 0 ~ 20
+	cure_reward_food_level = 20
+	#救治奖励：设置饱和度（0-20）
+	#Range: 0.0 ~ 20.0
+	cure_reward_saturation = 20.0
+	#佩戴时常驻：村庄英雄
+	enable_hero_of_the_village = true
+	#佩戴时常驻：夜视
+	enable_night_vision = true
+	#佩戴时常驻：海豚的恩惠
+	enable_dolphins_grace = true
+	#村庄英雄刷新时长（tick）
+	#Range: 20 ~ 12000
+	hero_duration_ticks = 220
+	#海豚的恩惠刷新时长（tick）
+	#Range: 20 ~ 12000
+	dolphin_duration_ticks = 220
+	#夜视刷新时长（tick）
+	#Range: 20 ~ 120000
+	night_vision_duration_ticks = 6000
+	#夜视剩余 <= 该阈值时刷新（tick）
+	#Range: 0 ~ 120000
+	night_vision_refresh_threshold_ticks = 1200
+

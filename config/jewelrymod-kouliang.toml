@@ -1,0 +1,21 @@
+
+[kouliang]
+	#每步攻击力加成
+	#Range: 0.0 ~ 100.0
+	atk_per_step = 1.0
+	#每步防御力加成
+	#Range: 0.0 ~ 100.0
+	armor_per_step = 1.0
+	#每步攻击速度加成
+	#Range: 0.0 ~ 100.0
+	attack_speed_per_step = 0.6
+	#每步交互距离加成
+	#Range: 0.0 ~ 10.0
+	interact_range_per_step = 0.1
+	#每步攻击距离加成
+	#Range: 0.0 ~ 10.0
+	attack_range_per_step = 0.2
+	#最大成长次数
+	#Range: 1 ~ 10000
+	max_uses = 2000
+

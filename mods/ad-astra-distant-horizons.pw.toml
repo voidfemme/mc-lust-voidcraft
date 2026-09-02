@@ -1,0 +1,13 @@
+name = "Ad Astra : Distant Horizons"
+filename = "ad_astra_dh-1.1.0-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a52a37079dace1f6426940a0305cbb707296f614"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5432260
+project-id = 1035702

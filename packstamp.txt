@@ -1,0 +1,5 @@
+Lust Voidcraft 2.0.0
+build 5e32d22b1477
+commit 5e32d22b147733d29c0ee8decde8c81ad0cdd4d5
+
+Paste this whole file into any bug report.

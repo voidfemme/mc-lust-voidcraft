@@ -1,0 +1,13 @@
+name = "Metus Oblita"
+filename = "metus_oblita-1.1.6(alpha)-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "caac48ec86bdb7bf4aaefab9cdb173fa14ce1f3f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8128146
+project-id = 1507439

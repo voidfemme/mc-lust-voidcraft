@@ -1,0 +1,13 @@
+name = "Chaos Block - Terramity Addon"
+filename = "chaos_block-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6107b73361d25b7520be60ef6c86220fb603f706"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8508437
+project-id = 1625221

@@ -1,0 +1,589 @@
+
+#Player-wide summoner defaults.
+[general]
+	#Range: 0 ~ 100
+	defaultMinionSlots = 1
+	#Range: 1.0 ~ 128.0
+	defaultMinionRange = 20.0
+	#Range: 0.0 ~ 100.0
+	defaultMinionDamage = 1.0
+	#Range: 0.05 ~ 100.0
+	defaultMinionAttackSpeed = 1.0
+	#Minion damage multiplier while neither a staff nor whip is held.
+	#Range: 0.0 ~ 100.0
+	unarmedMinionDamageMultiplier = 0.5
+
+#Summon staff base damage and use cooldowns.
+[staffs]
+
+	[staffs.slime]
+		#Range: 0.0 ~ 100000.0
+		damage = 2.0
+		#Range: 0 ~ 72000
+		cooldownTicks = 10
+
+	[staffs.parrot]
+		#Range: 0.0 ~ 100000.0
+		damage = 2.5
+		#Range: 0 ~ 72000
+		cooldownTicks = 10
+
+	[staffs.gnome]
+		#Range: 0.0 ~ 100000.0
+		damage = 2.0
+		#Range: 0 ~ 72000
+		cooldownTicks = 10
+
+	[staffs.turret]
+		#Range: 0.0 ~ 100000.0
+		damage = 2.0
+		#Range: 0 ~ 72000
+		cooldownTicks = 10
+
+	[staffs.imp]
+		#Range: 0.0 ~ 100000.0
+		damage = 5.0
+		#Range: 0 ~ 72000
+		cooldownTicks = 10
+
+	[staffs.conductive]
+		#Range: 0.0 ~ 100000.0
+		damage = 2.0
+		#Range: 0 ~ 72000
+		cooldownTicks = 10
+
+	[staffs.copperDrone]
+		#Range: 0.0 ~ 100000.0
+		damage = 0.0
+		#Range: 0 ~ 72000
+		cooldownTicks = 10
+
+	[staffs.spider]
+		#Range: 0.0 ~ 100000.0
+		damage = 3.0
+		#Range: 0 ~ 72000
+		cooldownTicks = 10
+
+	[staffs.sculkMite]
+		#Range: 0.0 ~ 100000.0
+		damage = 5.0
+		#Range: 0 ~ 72000
+		cooldownTicks = 10
+
+	[staffs.crystalWisp]
+		#Range: 0.0 ~ 100000.0
+		damage = 2.0
+		#Range: 0 ~ 72000
+		cooldownTicks = 10
+
+	[staffs.sanguine]
+		#Range: 0.0 ~ 100000.0
+		damage = 4.0
+		#Range: 0 ~ 72000
+		cooldownTicks = 10
+
+	[staffs.stardustDragon]
+		#Range: 0.0 ~ 100000.0
+		damage = 8.5
+		#Range: 0 ~ 72000
+		cooldownTicks = 10
+
+	[staffs.warriorsArsenal]
+		#Range: 0.0 ~ 100000.0
+		damage = 12.5
+		#Range: 0 ~ 72000
+		cooldownTicks = 10
+
+#Whip combat values. Range is measured in blocks.
+[whips]
+
+	[whips.leather]
+		#Range: 0.01 ~ 1024.0
+		attackSpeed = 0.85
+		#Range: 0.0 ~ 100000.0
+		damage = 2.5
+		#Range: 0.1 ~ 256.0
+		range = 12.0
+		#Range: 1 ~ 72000
+		cooldownTicks = 24
+
+	[whips.spinal]
+		#Range: 0.01 ~ 1024.0
+		attackSpeed = 1.0
+		#Range: 0.0 ~ 100000.0
+		damage = 3.0
+		#Range: 0.1 ~ 256.0
+		range = 13.0
+		#Range: 1 ~ 72000
+		cooldownTicks = 22
+
+	[whips.amethyst]
+		#Range: 0.01 ~ 1024.0
+		attackSpeed = 1.2
+		#Range: 0.0 ~ 100000.0
+		damage = 4.0
+		#Range: 0.1 ~ 256.0
+		range = 14.0
+		#Range: 1 ~ 72000
+		cooldownTicks = 20
+
+	[whips.soul]
+		#Range: 0.01 ~ 1024.0
+		attackSpeed = 1.5
+		#Range: 0.0 ~ 100000.0
+		damage = 6.0
+		#Range: 0.1 ~ 256.0
+		range = 16.0
+		#Range: 1 ~ 72000
+		cooldownTicks = 13
+
+	[whips.magma]
+		#Range: 0.01 ~ 1024.0
+		attackSpeed = 1.3
+		#Range: 0.0 ~ 100000.0
+		damage = 5.0
+		#Range: 0.1 ~ 256.0
+		range = 14.0
+		#Range: 1 ~ 72000
+		cooldownTicks = 16
+
+	[whips.hemorrhage]
+		#Range: 0.01 ~ 1024.0
+		attackSpeed = 1.2
+		#Range: 0.0 ~ 100000.0
+		damage = 4.0
+		#Range: 0.1 ~ 256.0
+		range = 14.0
+		#Range: 1 ~ 72000
+		cooldownTicks = 20
+
+#Whip special effects.
+[effects]
+
+	[effects.crystalBurst]
+		enabled = true
+		#Range: 1 ~ 1000
+		requiredMinionHits = 5
+		#Range: 1 ~ 72000
+		markDurationTicks = 80
+		#Range: 0.0 ~ 100.0
+		damageMultiplier = 1.0
+
+	[effects.firecracker]
+		enabled = true
+		#Range: 1 ~ 72000
+		markDurationTicks = 100
+		#Range: 0.0 ~ 64.0
+		radius = 1.5
+		#Range: 0.0 ~ 100.0
+		damageMultiplier = 0.25
+
+	[effects.lifeDrain]
+		enabled = true
+		#Range: 1 ~ 72000
+		markDurationTicks = 100
+		#Range: 1 ~ 255
+		maxLevel = 3
+		#Range: 0.0 ~ 100.0
+		fractionPerLevel = 0.01
+
+	[effects.soulAegis]
+		enabled = true
+		#Range: 1 ~ 1000
+		hitsPerStack = 5
+		#Range: 1 ~ 72000
+		durationTicks = 200
+		#Range: 1 ~ 255
+		maxResistanceLevel = 3
+
+#Curios accessory attribute bonuses. Multiplicative values use 0.2 for +20%.
+[accessories]
+	#Range: -100.0 ~ 100.0
+	pygmyNecklaceMinionSlots = 1.0
+	#Range: -100.0 ~ 100.0
+	ringOfSummoningMinionSlots = 1.0
+	#Range: -100.0 ~ 100.0
+	ringOfSummoningPlusMinionSlots = 2.0
+	#Range: -100.0 ~ 100.0
+	necromanticScrollMinionSlots = 2.0
+	#Range: -1.0 ~ 100.0
+	herculesBeetleDamageBonus = 0.2
+	#Range: -100.0 ~ 100.0
+	papyrusScarabMinionSlots = 1.0
+	#Range: -1.0 ~ 100.0
+	papyrusScarabDamageBonus = 0.1
+	#Range: -1.0 ~ 100.0
+	zoomGlassesRangeBonus = 0.5
+	#Range: -1.0 ~ 100.0
+	whippingGlovesAttackSpeedBonus = 0.2
+	#Range: 0.0 ~ 100.0
+	leadBellMinionDamageBonus = 0.25
+	#Range: 0.0 ~ 0.95
+	leadBellMinionAttackSpeedPenalty = 0.2
+	#Range: -1.0 ~ 100.0
+	metronomeMinionAttackSpeedBonus = 0.15
+	#Range: 0.0 ~ 100.0
+	soloistsSealMinionDamagePerUnusedSlot = 0.1
+	#Range: 0.0 ~ 100.0
+	soloistsSealMinionAttackSpeedPerUnusedSlot = 0.1
+	#Range: 0.0 ~ 100.0
+	glassScarabMinionDamageBonus = 0.3
+	#Range: 0.0 ~ 0.95
+	glassScarabMinionRangePenalty = 0.5
+	#Range: 0.0 ~ 100.0
+	polychromicNecklaceDamagePerSummonType = 0.05
+	#Range: 0.0 ~ 100.0
+	polychromicNecklaceMaxDamageBonus = 0.25
+	#Range: 0.0 ~ 1024.0
+	thornedBraceletsArmorReduction = 4.0
+	#Range: 1 ~ 72000
+	thornedBraceletsDurationTicks = 100
+	#Range: 1 ~ 1000
+	conductiveBatteryRequiredHits = 6
+	#Range: 1 ~ 100
+	conductiveBatteryMaxTargets = 2
+	#Range: 0.0 ~ 64.0
+	conductiveBatteryChainRadius = 6.0
+	#Range: 0.0 ~ 100.0
+	conductiveBatteryDamageMultiplier = 0.5
+	#Range: -1.0 ~ 100.0
+	tidecallerMaskRangeBonus = 0.1
+	#Range: 0.0 ~ 100.0
+	raidersMaskAttackSpeedBonus = 0.15
+	#Range: -1.0 ~ 100.0
+	realmwardMaskDamageBonus = 0.1
+	#Range: -1.0 ~ 100.0
+	realmwardMaskRangeBonus = 0.1
+	#Range: -1.0 ~ 100.0
+	witheredVisageDamageBonus = 0.1
+	#Range: 1 ~ 72000
+	witheredVisageDurationTicks = 60
+	#Range: -1.0 ~ 100.0
+	deepwardMaskRangeBonus = 0.2
+	#Range: -1.0 ~ 100.0
+	deepwardMaskWhipRangeBonus = 0.25
+	#Range: -1.0 ~ 100.0
+	dragonMaskDamageBonus = 0.12
+	#Range: -1.0 ~ 100.0
+	dragonMaskAttackSpeedBonus = 0.15
+	#Range: -1.0 ~ 100.0
+	dragonMaskWhipAttackSpeedBonus = 0.1
+	#Range: -1.0 ~ 100.0
+	vanquishersMaskDamageBonus = 0.25
+	#Range: -1.0 ~ 100.0
+	vanquishersMaskAttackSpeedBonus = 0.15
+	#Range: -1.0 ~ 100.0
+	vanquishersMaskRangeBonus = 0.2
+	#Range: -1.0 ~ 100.0
+	vanquishersMaskWhipDamageBonus = 0.2
+	#Range: -1.0 ~ 100.0
+	vanquishersMaskWhipRangeBonus = 0.25
+	#Range: -1.0 ~ 100.0
+	vanquishersMaskWhipAttackSpeedBonus = 0.1
+	#Range: -100.0 ~ 100.0
+	gobsMaskMinionSlots = 1.0
+	#Range: -1.0 ~ 100.0
+	gobsMaskMovementSpeedBonus = 0.12
+	#Range: -1.0 ~ 100.0
+	spireguardMaskMovementSpeedBonus = 0.16
+	#Range: -1.0 ~ 100.0
+	seraphicMaskMovementSpeedBonus = 0.21
+	#Range: -1.0 ~ 100.0
+	ultraSnifferMaskMovementSpeedBonus = 0.25
+	#Range: -1.0 ~ 100.0
+	spireguardMaskDamageBonus = 0.1
+	#Range: 1 ~ 1000
+	spireguardMaskRequiredHits = 15
+	#Range: 1 ~ 72000
+	spireguardMaskWardCooldownTicks = 200
+	#Range: 1 ~ 72000
+	spireguardMaskAbsorptionDurationTicks = 200
+	#Range: 0.0 ~ 1000.0
+	spireguardMaskKillHealing = 1.0
+	#Range: 1 ~ 72000
+	spireguardMaskHealingCooldownTicks = 40
+	#Range: -1.0 ~ 100.0
+	seraphicMaskWhipDamageBonus = 0.15
+	#Range: -1.0 ~ 100.0
+	seraphicMaskWhipRangeBonus = 0.15
+	#Range: -1.0 ~ 100.0
+	ultraSnifferMaskDamageBonus = 0.15
+	#Range: -1.0 ~ 100.0
+	ultraSnifferMaskAttackSpeedBonus = 0.1
+	#Range: -1.0 ~ 100.0
+	ultraSnifferMaskRangeBonus = 0.2
+	#Range: -1.0 ~ 100.0
+	ultraSnifferMaskWhipDamageBonus = 0.25
+	#Range: -1.0 ~ 100.0
+	ultraSnifferMaskWhipRangeBonus = 0.25
+	#Range: -1.0 ~ 100.0
+	ultraSnifferMaskWhipAttackSpeedBonus = 0.15
+	#Range: 1 ~ 72000
+	warHornRallyDurationTicks = 120
+	#Range: 1 ~ 72000
+	warHornCooldownTicks = 600
+	#Range: 0.0 ~ 100.0
+	warHornMinionMovementSpeedBonus = 0.25
+	#Range: 0.0 ~ 100.0
+	warHornMinionAttackSpeedBonus = 0.25
+
+#Minion attack timing and special movement/projectile values.
+[minions]
+
+	[minions.slime]
+		#Range: 1 ~ 72000
+		attackCooldownMin = 25
+		#Range: 1 ~ 72000
+		attackCooldownMax = 49
+
+	[minions.parrot]
+		#Range: 1 ~ 72000
+		attackCooldownMin = 35
+		#Range: 1 ~ 72000
+		attackCooldownMax = 69
+
+	[minions.gnome]
+		#Range: 1 ~ 72000
+		attackCooldownMin = 12
+		#Range: 1 ~ 72000
+		attackCooldownMax = 23
+
+	[minions.turret]
+		#Range: 1 ~ 72000
+		attackCooldown = 10
+
+	[minions.imp]
+		#Range: 1 ~ 72000
+		attackCooldownMin = 30
+		#Range: 1 ~ 72000
+		attackCooldownMax = 50
+		#Range: 0.01 ~ 64.0
+		projectileSpeed = 0.85
+
+	[minions.copperGolem]
+		#Range: 1 ~ 72000
+		attackCooldown = 20
+		#Range: 0.1 ~ 64.0
+		attackRange = 2.5
+
+	[minions.copperDrone]
+		#Range: 1 ~ 72000
+		attackCooldown = 16
+		#Range: 0.1 ~ 64.0
+		attackRange = 2.25
+
+	[minions.spider]
+		#Range: 1 ~ 72000
+		attackCooldown = 14
+		#Range: 0.1 ~ 64.0
+		attackRange = 1.35
+
+	[minions.sculkMite]
+		#Range: 1 ~ 72000
+		attackCooldown = 14
+		#Range: 0.1 ~ 64.0
+		attackRange = 1.35
+
+	[minions.crystalWisp]
+		#Range: 1 ~ 72000
+		attackCooldown = 20
+
+	[minions.sanguineBat]
+		#Range: 1 ~ 72000
+		attackCooldown = 4
+
+	[minions.ultraSniffer]
+		#Range: 1 ~ 72000
+		attackCooldown = 5
+
+	[minions.virentiumCube]
+		#Range: 1 ~ 72000
+		attackCooldown = 18
+
+	[minions.stardustDragon]
+		#Range: -1.0 ~ 100.0
+		damageBonusPerSegment = 0.1
+
+#Armor statistics and setbonus switches.
+[armor]
+
+	[armor.sniffer]
+		setBonusEnabled = true
+		#Range: 0.0 ~ 100000.0
+		setBonusDamage = 8.0
+
+		[armor.sniffer.helmet]
+			#Range: 0.0 ~ 100.0
+			armor = 3.0
+			#Range: 0.0 ~ 100.0
+			toughness = 4.0
+			#Range: -100.0 ~ 100.0
+			minionSlots = 1.0
+			#Range: 1 ~ 1000000
+			durability = 1650
+
+		[armor.sniffer.chestplate]
+			#Range: 0.0 ~ 100.0
+			armor = 5.0
+			#Range: 0.0 ~ 100.0
+			toughness = 5.0
+			#Range: -100.0 ~ 100.0
+			minionSlots = 1.0
+			#Range: 1 ~ 1000000
+			durability = 2400
+
+		[armor.sniffer.leggings]
+			#Range: 0.0 ~ 100.0
+			armor = 4.0
+			#Range: 0.0 ~ 100.0
+			toughness = 4.0
+			#Range: -100.0 ~ 100.0
+			minionSlots = 1.0
+			#Range: 1 ~ 1000000
+			durability = 2250
+
+		[armor.sniffer.boots]
+			#Range: 0.0 ~ 100.0
+			armor = 4.0
+			#Range: 0.0 ~ 100.0
+			toughness = 4.0
+			#Range: -100.0 ~ 100.0
+			minionSlots = 1.0
+			#Range: 1 ~ 1000000
+			durability = 1950
+
+	[armor.spider]
+		setBonusEnabled = true
+		#Range: 0.0 ~ 100000.0
+		setBonusDamage = 3.0
+
+		[armor.spider.helmet]
+			#Range: 0.0 ~ 100.0
+			armor = 3.0
+			#Range: 0.0 ~ 100.0
+			toughness = 2.5
+			#Range: -100.0 ~ 100.0
+			minionSlots = 0.0
+			#Range: 1 ~ 1000000
+			durability = 800
+
+		[armor.spider.chestplate]
+			#Range: 0.0 ~ 100.0
+			armor = 8.0
+			#Range: 0.0 ~ 100.0
+			toughness = 2.5
+			#Range: -100.0 ~ 100.0
+			minionSlots = 1.0
+			#Range: 1 ~ 1000000
+			durability = 1000
+
+		[armor.spider.leggings]
+			#Range: 0.0 ~ 100.0
+			armor = 6.0
+			#Range: 0.0 ~ 100.0
+			toughness = 2.5
+			#Range: -100.0 ~ 100.0
+			minionSlots = 1.0
+			#Range: 1 ~ 1000000
+			durability = 950
+
+		[armor.spider.boots]
+			#Range: 0.0 ~ 100.0
+			armor = 3.0
+			#Range: 0.0 ~ 100.0
+			toughness = 2.5
+			#Range: -100.0 ~ 100.0
+			minionSlots = 0.0
+			#Range: 1 ~ 1000000
+			durability = 700
+
+	[armor.obsidian]
+		setBonusEnabled = true
+		#Range: -1.0 ~ 100.0
+		whipRangeBonus = 0.5
+		#Range: -1.0 ~ 100.0
+		attackSpeedBonus = 0.5
+
+		[armor.obsidian.helmet]
+			#Range: 0.0 ~ 100.0
+			armor = 2.0
+			#Range: 0.0 ~ 100.0
+			toughness = 1.5
+			#Range: -100.0 ~ 100.0
+			minionSlots = 0.0
+			#Range: 1 ~ 1000000
+			durability = 600
+
+		[armor.obsidian.chestplate]
+			#Range: 0.0 ~ 100.0
+			armor = 6.0
+			#Range: 0.0 ~ 100.0
+			toughness = 1.5
+			#Range: -100.0 ~ 100.0
+			minionSlots = 1.0
+			#Range: 1 ~ 1000000
+			durability = 850
+
+		[armor.obsidian.leggings]
+			#Range: 0.0 ~ 100.0
+			armor = 5.0
+			#Range: 0.0 ~ 100.0
+			toughness = 1.5
+			#Range: -100.0 ~ 100.0
+			minionSlots = 0.0
+			#Range: 1 ~ 1000000
+			durability = 800
+
+		[armor.obsidian.boots]
+			#Range: 0.0 ~ 100.0
+			armor = 2.0
+			#Range: 0.0 ~ 100.0
+			toughness = 1.5
+			#Range: -100.0 ~ 100.0
+			minionSlots = 0.0
+			#Range: 1 ~ 1000000
+			durability = 550
+
+	[armor.virentiumSummoner]
+		#Range: 0.0 ~ 100.0
+		toughness = 3.0
+		#Range: 0.0 ~ 1.0
+		knockbackResistance = 0.0
+		#Range: 0 ~ 1000
+		enchantmentValue = 20
+		setBonusEnabled = true
+		#Range: 0.0 ~ 100000.0
+		setBonusDamage = 8.0
+
+		[armor.virentiumSummoner.helmet]
+			#Range: 0 ~ 100
+			armor = 4
+			#Range: 1 ~ 1000000
+			durability = 910
+			#Range: -100.0 ~ 100.0
+			minionSlots = 1.0
+
+		[armor.virentiumSummoner.chestplate]
+			#Range: 0 ~ 100
+			armor = 9
+			#Range: 1 ~ 1000000
+			durability = 1120
+			#Range: -100.0 ~ 100.0
+			minionSlots = 1.0
+
+		[armor.virentiumSummoner.leggings]
+			#Range: 0 ~ 100
+			armor = 7
+			#Range: 1 ~ 1000000
+			durability = 1050
+			#Range: -100.0 ~ 100.0
+			minionSlots = 1.0
+
+		[armor.virentiumSummoner.boots]
+			#Range: 0 ~ 100
+			armor = 4
+			#Range: 1 ~ 1000000
+			durability = 770
+			#Range: -100.0 ~ 100.0
+			minionSlots = 0.0
+
