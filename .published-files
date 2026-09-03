@@ -536,6 +536,7 @@ mods/crafting-on-a-stick.pw.toml
 mods/cristel-lib.pw.toml
 mods/critters-and-companions.pw.toml
 mods/culllessleaves-reforged.pw.toml
+mods/cult-of-azazel.pw.toml
 mods/cupboard.pw.toml
 mods/curios.pw.toml
 mods/cyclops-core.pw.toml
@@ -623,6 +624,7 @@ mods/puzzles-lib.pw.toml
 mods/pylons.pw.toml
 mods/rac-compat.pw.toml
 mods/ram-compat.pw.toml
+mods/re-avaritia.pw.toml
 mods/relics-mod.pw.toml
 mods/reliquified-artifacts.pw.toml
 mods/resourceful-config.pw.toml

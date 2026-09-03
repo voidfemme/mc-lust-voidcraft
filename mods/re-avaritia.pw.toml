@@ -1,0 +1,13 @@
+name = "Re:Avaritia"
+filename = "Re-Avaritia-forge-1.20.1-1.4.1-release.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QeB3NRC5/versions/ssUn2Txe/Re-Avaritia-forge-1.20.1-1.4.1-release.jar"
+hash-format = "sha512"
+hash = "1e75a8a93b1de4a5a574ee1d1f652e02060df25fbe7b0a3e0f9ffce7d94e9dd0a77265da450621484fc1888b1c49c02a8c35732ff15a20f3c4fa13a099879da9"
+
+[update]
+[update.modrinth]
+mod-id = "QeB3NRC5"
+version = "ssUn2Txe"
