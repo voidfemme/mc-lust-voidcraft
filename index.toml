@@ -2575,7 +2575,7 @@ metafile = true
 
 [[files]]
 file = "mods/particle-core.pw.toml"
-hash = "f2dac6ca0291f11a8f544bf38d8417fedcd25682dcc1fda2c4d6d3c9bc5f9e42"
+hash = "49b45092802ea261047c7d4c4866feb99992f39e92b4e2089140408661d61830"
 metafile = true
 
 [[files]]
@@ -2849,11 +2849,6 @@ hash = "5ab6f2a4a50bd53506496d3da0c2c09d5a3ca363c3ebc7ca8641ecd3f7104365"
 metafile = true
 
 [[files]]
-file = "mods/werewolves.pw.toml"
-hash = "2f13dc11c0d7bd59bed4a50874668d6e60c4de6c3be467416e01af652cb5a011"
-metafile = true
-
-[[files]]
 file = "mods/wunderlib-forge.pw.toml"
 hash = "059a459e6ffc97cfcde71d03ed8832c6eac9459a2d1e155f76d1220f1a0fb809"
 metafile = true
@@ -2875,4 +2870,4 @@ metafile = true
 
 [[files]]
 file = "packstamp.txt"
-hash = "f7aa0d5e1885c214e813b025db1bbc4aeaff4adfc0e772f49ff3ec2be375824f"
+hash = "b0731f498215c012bb130a02bd9bf843c84efabb5e4216babde4a4fbf55ac1f3"
